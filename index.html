@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silence. On danse! - Danse + Expérience Immersive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+        
+        /* Navigation */
+        nav {
+            background-color: #5B2C6F;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 0.9rem;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        /* Hero Section with Video */
+        .hero {
+            position: relative;
+            height: 70vh;
+            min-height: 500px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 0;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: white;
+            padding: 2rem;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .hero h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+        
+        /* Purple Banner */
+        .purple-banner {
+            background-color: #5B2C6F;
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        
+        .purple-banner h3 {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+        
+        .purple-banner p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .purple-banner strong {
+            font-weight: 600;
+        }
+        
+        /* Content Section */
+        .content-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .content-text h3 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
+        
+        .content-text p {
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            color: #555;
+        }
+        
+        .content-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav a {
+                margin: 0.5rem 0;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero h2 {
+                font-size: 1.2rem;
+            }
+            
+            .content-section {
+                grid-template-columns: 1fr;
+                padding: 2rem 1rem;
+            }
+            
+            .purple-banner h3 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="/" class="logo">Silence. On danse!</a>
+        <div>
+            <a href="#services">NOS SERVICES</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Video -->
+    <section class="hero">
+        <!-- Placeholder for hero video - will need actual video file -->
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-people-dancing-at-night-4708-large.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>CÉLÉBRER - RASSEMBLER</h1>
+            <h2>DANSE + EXPÉRIENCE IMMERSIVE</h2>
+        </div>
+    </section>
+
+    <!-- Purple Banner -->
+    <section class="purple-banner">
+        <h3>Danser et s'amuser, en ville, en nature, sans déranger!</h3>
+        <p>
+            Service de <strong>location d'équipement</strong> de silent disco<br>
+            Service d'<strong>animation pour clients privés et municipaux</strong><br>
+            Danses thématiques <strong>à des moments magiques & lieux épiques</strong>
+        </p>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section">
+        <div class="content-text">
+            <h3>Connecter. Célébrer. Contribuer.</h3>
+            <p>La danse est la fusion créative du mouvement inspiré par les rythmes musicaux, l'inspiration par les lieux et par les gens. C'est une opportunité unique de connecter avec soi-même et les autres.</p>
+            <p>Célébrez la vie grâce à cette expérience immersive de danse, qui rassemble les gens de tous âge, sans déranger les voisins.</p>
+            <p>Contribuez à la vie citoyenne avec nos événements de médiation sociale et environnementale.</p>
+        </div>
+        <div class="content-image">
+            <!-- Placeholder image -->
+            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800" alt="Outdoor event">
+        </div>
+    </section>
+
+</body>
+</html>
