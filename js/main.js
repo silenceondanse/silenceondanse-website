@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
                         }
                     } else {
-                        throw new Error('Network response was not ok');
+                        throw new Error(`Server returned status: ${response.status}`);
                     }
                 })
                 .catch((error) => {
@@ -227,10 +227,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     formSubmitBtn.innerText = originalBtnText;
                     formSubmitBtn.disabled = false;
 
+                    console.error('Submission error:', error);
+
                     if (errorMsg) {
                         const userMessage = contactForm.querySelector('textarea')?.value || '';
                         errorMsg.innerHTML = `
-                            <strong>Oups ! Le formulaire a bogué.</strong><br>
+                            <strong>Oups ! Le formulaire a bogué (Error: ${error.message}).</strong><br>
                             <p style="margin-top: 10px; font-size: 0.9rem;">Désolé, nous avons un problème technique momentané.</p>
                             <p class="form-fallback-msg">Voici votre message à copier :</p>
                             <div class="form-fallback-code">${userMessage}</div>
@@ -239,7 +241,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         errorMsg.style.display = 'block';
                         errorMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
                     }
-                    console.error('Form submission error:', error);
                 });
         });
     }
