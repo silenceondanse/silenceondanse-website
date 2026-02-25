@@ -3,10 +3,6 @@
   command = "sed -i \"s/{{BUILD_VERSION}}/$(git rev-parse --short HEAD)/g\" *.html"
   publish = "."
 
-[[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
 
 [forms]
   notification_email = "infosilenceondanse@gmail.com"
