@@ -2428,3 +2428,14 @@ section:empty {
     color: var(--color-primary) !important;
     font-weight: 700 !important;
 }
+/* Version Tag Styling */
+.version-tag {
+    font-size: 0.72rem;
+    opacity: 0.45;
+    margin-top: 0.75rem;
+    display: block;
+    font-family: monospace;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--color-text-light);
+}

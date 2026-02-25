@@ -194,8 +194,10 @@ document.addEventListener('DOMContentLoaded', () => {
             formSubmitBtn.disabled = true;
 
             const formData = new FormData(contactForm);
+            // Explicitly set the form-name for Netlify to catch the AJAX post
+            formData.append("form-name", "contact");
 
-            fetch("/contact.html", {
+            fetch("/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: new URLSearchParams(formData).toString(),
