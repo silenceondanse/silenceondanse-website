@@ -93,8 +93,10 @@
                         Veuillez réessayer ou nous contacter directement.
                     </div>
 
-                    <form id="contact-form" name="contact" method="POST" data-netlify="true"
-                        netlify-honeypot="bot-field" class="contact-form">
+                    <form id="contact-form" name="contact" method="POST" netlify netlify-honeypot="bot-field"
+                        class="contact-form">
+
+                        <input type="hidden" name="form-name" value="contact">
 
                         <!-- Netlify Bot-Field -->
                         <p class="d-none">

@@ -178,6 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    /* 
     // 9. Contact Form Handling (Robust Netlify AJAX)
     const contactForm = document.getElementById('contact-form');
     const successMsg = document.getElementById('form-success');
@@ -244,6 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
         });
     }
+    */
 
     // 10. Reveal Contact Info (Anti-Spam)
     document.querySelectorAll('.reveal-on-click').forEach(element => {
