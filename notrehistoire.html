@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notre Histoire | Silence. On danse ! - La mission derrière le mouvement</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <meta name="description"
         content="Découvrez l'origine de Silence. On danse ! Notre mission : connecter, célébrer et contribuer à la vie citoyenne à travers la danse immersive.">
 
@@ -25,412 +26,8 @@
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <style>
-        /* ========================
-           NOTRE HISTOIRE — STYLES
-           ======================== */
-
-        /* Hero */
-        .hero-histoire-wrap {
-            position: relative;
-            height: 65vh;
-            min-height: 480px;
-            display: flex;
-            align-items: flex-end;
-            overflow: hidden;
-        }
-
-        .hero-histoire-bg {
-            position: absolute;
-            inset: 0;
-            background-image: url('assets/images/hero-histoire.jpg');
-            background-size: cover;
-            background-position: center 30%;
-        }
-
-        .hero-histoire-gradient {
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(to bottom,
-                    rgba(0, 0, 0, 0.2) 0%,
-                    rgba(55, 18, 67, 0.55) 60%,
-                    rgba(26, 26, 26, 0.95) 100%);
-        }
-
-        .hero-histoire-content {
-            position: relative;
-            z-index: 2;
-            width: 100%;
-            padding: 0 0 70px;
-        }
-
-        .hero-histoire-content .eyebrow {
-            font-size: 0.72rem;
-            font-weight: 700;
-            letter-spacing: 5px;
-            text-transform: uppercase;
-            color: var(--color-primary-light);
-            opacity: 0.9;
-            display: block;
-            margin-bottom: 16px;
-        }
-
-        .hero-histoire-content h1 {
-            font-size: clamp(2.4rem, 5vw, 4rem);
-            line-height: 1.1;
-            color: white;
-            font-weight: 900;
-            letter-spacing: -1px;
-            max-width: 760px;
-        }
-
-        /* Intro quote */
-        .histoire-intro {
-            background: white;
-            padding: 80px 0 60px;
-            border-bottom: 1px solid #eee;
-        }
-
-        .histoire-intro blockquote {
-            font-size: clamp(1.4rem, 2.5vw, 2rem);
-            font-weight: 300;
-            line-height: 1.55;
-            color: var(--color-bg-dark);
-            font-style: normal;
-            border-left: 5px solid var(--color-primary);
-            padding-left: 32px;
-            max-width: 820px;
-        }
-
-        .histoire-intro blockquote strong {
-            font-weight: 900;
-            color: var(--color-primary);
-        }
-
-        /* Mission — two column */
-        .mission-wrap {
-            background: white;
-            padding: 80px 0 100px;
-        }
-
-        .mission-layout {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 80px;
-            align-items: center;
-        }
-
-        .mission-text .label {
-            font-size: 0.72rem;
-            font-weight: 700;
-            letter-spacing: 5px;
-            text-transform: uppercase;
-            color: var(--color-primary);
-            display: block;
-            margin-bottom: 20px;
-        }
-
-        .mission-text h2 {
-            font-size: clamp(2rem, 3.5vw, 2.8rem);
-            line-height: 1.15;
-            color: var(--color-bg-dark);
-            margin-bottom: 12px;
-            font-weight: 900;
-        }
-
-        .mission-divider {
-            width: 50px;
-            height: 4px;
-            background: var(--color-primary);
-            margin: 28px 0;
-            border-radius: 2px;
-        }
-
-        .mission-text p {
-            font-size: 1.05rem;
-            line-height: 1.85;
-            color: var(--color-text-muted);
-            margin-bottom: 18px;
-        }
-
-        .mission-text p:last-child {
-            margin-bottom: 0;
-        }
-
-        .mission-image-frame {
-            position: relative;
-        }
-
-        .mission-image-frame img {
-            width: 100%;
-            display: block;
-            border-radius: var(--radius-md);
-            box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
-        }
-
-        .mission-image-frame::before {
-            content: '';
-            position: absolute;
-            top: -16px;
-            right: -16px;
-            width: 100%;
-            height: 100%;
-            border: 3px solid var(--color-primary);
-            border-radius: var(--radius-md);
-            z-index: -1;
-            opacity: 0.4;
-        }
-
-        /* Vision — dark, reversed */
-        .vision-wrap {
-            background: var(--color-bg-dark);
-            padding: 100px 0;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .vision-wrap::before {
-            content: '';
-            position: absolute;
-            top: -300px;
-            right: -300px;
-            width: 800px;
-            height: 800px;
-            border-radius: 50%;
-            background: radial-gradient(circle, rgba(78, 28, 93, 0.3) 0%, transparent 65%);
-            pointer-events: none;
-        }
-
-        .vision-layout {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 80px;
-            align-items: center;
-        }
-
-        .vision-text .label {
-            font-size: 0.72rem;
-            font-weight: 700;
-            letter-spacing: 5px;
-            text-transform: uppercase;
-            color: var(--color-primary-light);
-            display: block;
-            margin-bottom: 20px;
-        }
-
-        .vision-text h2 {
-            font-size: clamp(1.8rem, 3vw, 2.6rem);
-            line-height: 1.18;
-            color: white;
-            margin-bottom: 12px;
-            font-weight: 900;
-        }
-
-        .vision-divider {
-            width: 50px;
-            height: 4px;
-            background: var(--color-primary-light);
-            margin: 28px 0;
-            border-radius: 2px;
-        }
-
-        .vision-text p {
-            font-size: 1.05rem;
-            line-height: 1.85;
-            color: rgba(255, 255, 255, 0.72);
-            margin-bottom: 18px;
-        }
-
-        .vision-text p:last-child {
-            margin-bottom: 0;
-        }
-
-        .vision-image-frame {
-            position: relative;
-        }
-
-        .vision-image-frame img {
-            width: 100%;
-            display: block;
-            border-radius: var(--radius-md);
-            box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
-        }
-
-        .vision-corner {
-            position: absolute;
-            width: 80px;
-            height: 80px;
-        }
-
-        .vision-corner.tl {
-            top: -12px;
-            left: -12px;
-            border-top: 3px solid var(--color-primary-light);
-            border-left: 3px solid var(--color-primary-light);
-            border-radius: var(--radius-sm) 0 0 0;
-        }
-
-        .vision-corner.br {
-            bottom: -12px;
-            right: -12px;
-            border-bottom: 3px solid var(--color-primary-light);
-            border-right: 3px solid var(--color-primary-light);
-            border-radius: 0 0 var(--radius-sm) 0;
-        }
-
-        /* Values */
-        .values-wrap {
-            background: #f5f5f7;
-            padding: 100px 0;
-        }
-
-        .values-header {
-            text-align: center;
-            margin-bottom: 64px;
-        }
-
-        .values-header .label {
-            font-size: 0.72rem;
-            font-weight: 700;
-            letter-spacing: 5px;
-            text-transform: uppercase;
-            color: var(--color-primary);
-            display: block;
-            margin-bottom: 16px;
-        }
-
-        .values-header h2 {
-            font-size: clamp(2rem, 3.5vw, 2.75rem);
-            color: var(--color-bg-dark);
-            font-weight: 900;
-            margin-bottom: 0;
-        }
-
-        .values-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 28px;
-        }
-
-        .value-card {
-            background: white;
-            padding: 44px 36px 40px;
-            border-radius: var(--radius-md);
-            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
-            border-bottom: 4px solid var(--color-primary);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .value-card:nth-child(2) {
-            border-bottom-color: var(--color-primary-light);
-        }
-
-        .value-card:nth-child(3) {
-            border-bottom-color: var(--color-accent);
-        }
-
-        .value-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
-        }
-
-        .value-icon {
-            width: 52px;
-            height: 52px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 24px;
-            background: rgba(78, 28, 93, 0.08);
-        }
-
-        .value-card:nth-child(2) .value-icon {
-            background: rgba(106, 42, 126, 0.08);
-        }
-
-        .value-card:nth-child(3) .value-icon {
-            background: rgba(225, 175, 62, 0.1);
-        }
-
-        .value-card h3 {
-            color: var(--color-bg-dark);
-            font-size: 1.5rem;
-            margin-bottom: 14px;
-            font-weight: 900;
-        }
-
-        .value-card p {
-            color: var(--color-text-muted);
-            font-size: 1rem;
-            line-height: 1.75;
-            margin: 0;
-        }
-
-        /* CTA */
-        .histoire-cta {
-            background: var(--color-primary);
-            padding: 80px 0;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .histoire-cta::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.06) 0%, transparent 70%);
-        }
-
-        .histoire-cta h2 {
-            color: white;
-            font-size: clamp(1.8rem, 3vw, 2.5rem);
-            margin-bottom: 14px;
-            font-weight: 900;
-            position: relative;
-        }
-
-        .histoire-cta p {
-            color: rgba(255, 255, 255, 0.78);
-            font-size: 1.1rem;
-            margin-bottom: 40px;
-            position: relative;
-        }
-
-        .histoire-cta .btn-outline-light {
-            font-size: 0.9rem;
-            padding: 1rem 2.5rem;
-            position: relative;
-        }
-
-        /* Responsive */
-        @media (max-width: 900px) {
-
-            .mission-layout,
-            .vision-layout {
-                grid-template-columns: 1fr;
-                gap: 48px;
-            }
-
-            .mission-image-frame::before {
-                display: none;
-            }
-
-            .vision-image-frame {
-                order: -1;
-            }
-
-            .values-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .hero-histoire-content h1 {
-                font-size: 2rem;
-            }
-        }
-    </style>
 </head>
+
 
 <body>
 
@@ -445,16 +42,20 @@
                 </ul>
             </nav>
 
-            <div class="logo">
-                <a href="index.html">
-                    Silence. On danse!
-                </a>
+            <div class="logo-group">
+                <div class="logo">
+                    <a href="index.html">
+                        Silence. On danse!
+                    </a>
+                </div>
+                <a href="contact.html" class="btn-outline-small d-none-mobile">RÉSERVER NOS SERVICES</a>
             </div>
 
             <nav class="nav-right">
                 <ul>
                     <li><a href="photos.html">PHOTOTHÈQUE</a></li>
-                    <li><a href="contact.html" class="btn-outline-small">RÉSERVER NOS SERVICES</a></li>
+                    <li class="d-block-mobile"><a href="contact.html" class="btn-outline-small">RÉSERVER NOS
+                            SERVICES</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
@@ -491,13 +92,13 @@
     </section>
 
     <!-- ======================== MISSION ======================== -->
-    <section class="mission-wrap" id="mission">
+    <section class="histoire-section" id="mission">
         <div class="container">
-            <div class="mission-layout">
-                <div class="mission-text reveal fade-left">
+            <div class="histoire-layout">
+                <div class="histoire-text reveal fade-left">
                     <span class="label">Notre mission</span>
                     <h2>Reconnecter, vibrer et célébrer à travers la danse.</h2>
-                    <div class="mission-divider"></div>
+                    <div class="histoire-divider"></div>
                     <p>
                         Silence. On danse ! est une organisation créée pour offrir des expériences immersives et
                         libératrices où la musique, le mouvement et la nature se rencontrent en parfaite harmonie.
@@ -512,7 +113,7 @@
                         ville comme dans la nature, sans jamais déranger l'environnement.
                     </p>
                 </div>
-                <div class="mission-image-frame reveal fade-right">
+                <div class="histoire-image-frame reveal fade-right">
                     <img src="assets/images/hero-histoire.jpg" alt="Silence on Danse — Notre mission" loading="lazy">
                 </div>
             </div>
@@ -520,18 +121,18 @@
     </section>
 
     <!-- ======================== VISION ======================== -->
-    <section class="vision-wrap" id="vision">
+    <section class="histoire-section dark" id="vision">
         <div class="container">
-            <div class="vision-layout">
-                <div class="vision-image-frame reveal fade-left">
+            <div class="histoire-layout">
+                <div class="histoire-image-frame reveal fade-left">
                     <img src="assets/images/about-group.jpg" alt="Silence on Danse — Notre vision" loading="lazy">
                     <div class="vision-corner tl"></div>
                     <div class="vision-corner br"></div>
                 </div>
-                <div class="vision-text reveal fade-right">
+                <div class="histoire-text reveal fade-right">
                     <span class="label">Notre vision</span>
                     <h2>Une invitation à ralentir et à savourer l'instant présent.</h2>
-                    <div class="vision-divider"></div>
+                    <div class="histoire-divider"></div>
                     <p>
                         Nous nous positionnons comme des créateurs d'ambiance, des porteurs d'énergie et des passeurs
                         d'émotions. Notre vision est d'offrir une expérience immersive sans pollution sonore, accessible
@@ -555,7 +156,7 @@
                 <h2>Ce qui nous définit</h2>
             </div>
             <div class="values-grid">
-                <div class="value-card reveal fade-up" style="transition-delay: 0.1s;">
+                <div class="value-card reveal fade-up reveal-delay-1">
                     <div class="value-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)"
                             stroke-width="2">
@@ -569,7 +170,7 @@
                     <p>Fusion créative du mouvement, des rythmes, des lieux et des gens. Une opportunité unique de se
                         connecter avec soi-même et les autres participants.</p>
                 </div>
-                <div class="value-card reveal fade-up" style="transition-delay: 0.2s;">
+                <div class="value-card reveal fade-up reveal-delay-2">
                     <div class="value-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary-light)"
                             stroke-width="2">
@@ -582,7 +183,7 @@
                     <p>Célébrer la vie par une expérience de danse immersive qui rassemble des personnes de tous âges
                         dans une harmonie parfaite, sans contraintes de bruit.</p>
                 </div>
-                <div class="value-card reveal fade-up" style="transition-delay: 0.3s;">
+                <div class="value-card reveal fade-up reveal-delay-3">
                     <div class="value-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)"
                             stroke-width="2">
@@ -620,7 +221,10 @@
                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                         </svg></a>
                 </div>
-                <p class="copyright">&copy; 2026 Silence. On danse !</p>
+                <p class="copyright">&copy; 2026 Silence. On danse !<br>
+                    <span class="reveal-on-click reveal-btn-footer" data-e="infosilenceondanse@gmail.com">[Afficher le
+                        courriel]</span>
+                </p>
             </div>
         </div>
     </footer>

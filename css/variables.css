@@ -4,6 +4,7 @@
     --color-primary: #4E1C5D;
     /* Deep Purple */
     --color-primary-light: #6a2a7e;
+    --color-primary-light-rgba: rgba(106, 42, 126, 0.05);
     --color-primary-dark: #371243;
 
     --color-bg-light: #F7F7F8;

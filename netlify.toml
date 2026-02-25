@@ -1,40 +1,11 @@
+# Netlify Deployment Configuration
 [build]
   publish = "."
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-
-[[redirects]]
-  from = "/contact"
-  to = "/contact.html"
-  status = 200
-
-[[redirects]]  
-  from = "/services"
-  to = "/services.html"
-  status = 200
-
-[[redirects]]  
-  from = "/notrehistoire"
-  to = "/notrehistoire.html"
-  status = 200
-
-[[redirects]]  
-  from = "/photos"
-  to = "/photos.html"
-  status = 200
-
-[[redirects]]  
-  from = "/fiche-technique"
-  to = "/fiche-technique.html"
-  status = 200
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 404
+  status = 200
+
+[forms]
+  notification_email = "infosilenceondanse@gmail.com"

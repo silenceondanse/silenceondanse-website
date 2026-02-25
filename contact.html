@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact & Réservation | Silence. On danse ! - Organisez votre Silent Disco</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <meta name="description"
         content="Prêt à organiser une soirée inoubliable ? Contactez-nous pour réserver nos services de silent disco everywhere au Québec.">
 
@@ -39,16 +40,20 @@
                 </ul>
             </nav>
 
-            <div class="logo">
-                <a href="index.html">
-                    Silence. On danse!
-                </a>
+            <div class="logo-group">
+                <div class="logo">
+                    <a href="index.html">
+                        Silence. On danse!
+                    </a>
+                </div>
+                <a href="contact.html" class="btn-outline-small d-none-mobile">RÉSERVER NOS SERVICES</a>
             </div>
 
             <nav class="nav-right">
                 <ul>
                     <li><a href="photos.html">PHOTOTHÈQUE</a></li>
-                    <li><a href="contact.html" class="btn-outline-small">RÉSERVER NOS SERVICES</a></li>
+                    <li class="d-block-mobile"><a href="contact.html" class="btn-outline-small">RÉSERVER NOS
+                            SERVICES</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
@@ -68,78 +73,64 @@
                 <!-- Left Image & Phone -->
                 <div class="contact-image-side reveal fade-left"
                     style="background-image: url('assets/images/contact-portrait.jpg');">
-                    <div class="contact-image-overlay">
-                        <p style="color: white; font-size: 1rem; opacity: 0.9; margin-bottom: 0.4rem;">
-                            Des questions rapides ?</p>
-                        <p style="color: white; font-size: 1.05rem; font-weight: bold; margin: 0;">Textez Alex au</p>
-                        <p
-                            style="color: var(--color-primary-light); font-size: 2rem; font-weight: 900; margin: 0.25rem 0 0; text-shadow: 0 2px 10px rgba(0,0,0,0.4);">
-                            250-644-0742</p>
-                    </div>
+                    <!-- Overlay removed from here for legibility -->
                 </div>
 
                 <!-- Right Form -->
                 <div class="contact-form-side reveal fade-right">
-                    <h1
-                        style="font-size: 2rem; color: var(--color-bg-dark); margin-bottom: 6px; letter-spacing: -0.5px;">
-                        Prêt à danser ?</h1>
-                    <p style="color: var(--color-text-muted); margin-bottom: 1.75rem; font-size: 0.95rem;">Réservez nos
-                        services ou posez vos questions.</p>
+                    <h1>Prêt à danser ?</h1>
+                    <p>Réservez nos services ou posez vos questions.</p>
 
-                    <!-- Success message (hidden by default) -->
-                    <div id="form-success"
-                        style="display:none; background: #e8f5e9; border: 1px solid #4caf50; border-radius: var(--radius-md); padding: 1.25rem 1.5rem; margin-bottom: 1.5rem;">
-                        <p style="color: #2e7d32; font-weight: 700; margin: 0 0 4px;">Message envoyé ! ✓</p>
-                        <p style="color: #388e3c; font-size: 0.9rem; margin: 0;">Nous vous répondrons dans les plus
-                            brefs délais.</p>
+                    <!-- Success message -->
+                    <div id="form-success">
+                        <strong>Message envoyé ! ✓</strong><br>
+                        Nous vous répondrons dans les plus brefs délais.
                     </div>
 
-                    <!-- Error message (hidden by default) -->
-                    <div id="form-error"
-                        style="display:none; background: #fce4ec; border: 1px solid #e91e63; border-radius: var(--radius-md); padding: 1.25rem 1.5rem; margin-bottom: 1.5rem;">
-                        <p style="color: #c62828; font-weight: 700; margin: 0 0 4px;">Erreur d'envoi</p>
-                        <p style="color: #b71c1c; font-size: 0.9rem; margin: 0;">Veuillez réessayer ou nous contacter
-                            directement.</p>
+                    <!-- Error message -->
+                    <div id="form-error">
+                        <strong>Erreur d'envoi</strong><br>
+                        Veuillez réessayer ou nous contacter directement.
                     </div>
 
-                    <!--
-                        NETLIFY FORMS — sends email to infosilenceondanse@gmail.com
-                        After deploying to Netlify:
-                        1. Go to Site Settings → Forms → Form notifications
-                        2. Add email notification to: infosilenceondanse@gmail.com
-                        3. Test the form live on Netlify to confirm delivery
-                    -->
                     <form id="contact-form" name="contact" method="POST" data-netlify="true"
-                        netlify-honeypot="bot-field" style="display: flex; flex-direction: column; gap: 1.1rem;">
+                        netlify-honeypot="bot-field" class="contact-form">
 
                         <!-- Hidden fields for Netlify -->
                         <input type="hidden" name="form-name" value="contact">
-                        <p style="display:none;">
+                        <p class="d-none">
                             <label>Ne pas remplir si vous êtes humain : <input name="bot-field"></label>
                         </p>
 
-                        <div class="form-group" style="margin-bottom:0;">
+                        <div class="form-group">
                             <label for="name" class="form-label">Votre Nom *</label>
                             <input type="text" id="name" name="name" class="form-input" required
-                                placeholder="Ex: Jean Dupont">
+                                placeholder="Bob Marley">
                         </div>
-                        <div class="form-group" style="margin-bottom:0;">
+                        <div class="form-group">
                             <label for="email" class="form-label">Courriel *</label>
                             <input type="email" id="email" name="email" class="form-input" required
-                                placeholder="email@exemple.com">
+                                placeholder="danse@silente.disco">
                         </div>
-                        <div class="form-group" style="margin-bottom:0;">
+                        <div class="form-group">
                             <label for="phone" class="form-label">Téléphone</label>
-                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="000-000-0000">
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="438-321-4321">
                         </div>
-                        <div class="form-group" style="margin-bottom:0;">
+                        <div class="form-group">
                             <label for="message" class="form-label">Votre projet</label>
-                            <textarea id="message" name="message" class="form-textarea" rows="3"
-                                placeholder="Lieu, date, nombre de participants..."></textarea>
+                            <textarea id="message" name="message" class="form-textarea" rows="4"
+                                placeholder="Lieu, date, nombre de participants et autres infos pertinantes..."></textarea>
                         </div>
-                        <button type="submit" id="contact-submit" class="btn-primary"
-                            style="border: none; cursor: pointer; padding: 0.9rem 1rem; font-size: 0.95rem; margin-top: 0.25rem;">ENVOYER</button>
+                        <button type="submit" id="contact-submit" class="btn-primary w-full border-none">ENVOYER LE
+                            MESSAGE</button>
                     </form>
+
+                    <div class="quick-contact-box reveal fade-up" style="margin-top: 2rem;">
+                        <span class="label-small">Des questions rapides ?</span>
+                        <span class="text-large-block">Textez Alex au
+                            <strong class="reveal-on-click text-reveal-inline" data-p="250-644-0742">[Afficher
+                                le numéro]</strong></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -160,7 +151,10 @@
                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                         </svg></a>
                 </div>
-                <p class="copyright">&copy; 2026 Silence. On danse !</p>
+                <p class="copyright">&copy; 2026 Silence. On danse !<br>
+                    <span class="reveal-on-click reveal-btn-footer" data-e="infosilenceondanse@gmail.com">[Afficher le
+                        courriel]</span>
+                </p>
             </div>
         </div>
     </footer>

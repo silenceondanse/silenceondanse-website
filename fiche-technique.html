@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiche Technique | Silence. On danse ! - Équipement Silent Disco Pro</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <meta name="description"
         content="Spécifications techniques de notre équipement : casques UHF, émetteurs portables and longue portée. Tout pour réussir votre événement silent disco.">
 
@@ -25,121 +26,7 @@
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <style>
-        /* ========================
-           FICHE TECHNIQUE — READABILITY
-           ======================== */
-
-        /* Stats bar */
-        .stats-bar-val {
-            font-size: 2.6rem;
-            font-weight: 900;
-            color: var(--color-primary-light);
-            line-height: 1;
-            letter-spacing: -1px;
-        }
-
-        .stats-bar-unit {
-            font-size: 1.3rem;
-        }
-
-        .stats-bar-label {
-            font-size: 0.75rem;
-            letter-spacing: 2.5px;
-            text-transform: uppercase;
-            color: rgba(255, 255, 255, 0.5);
-            margin-top: 8px;
-        }
-
-        /* Equipment cards hover */
-        .equip-card {
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid rgba(255, 255, 255, 0.09);
-            border-radius: var(--radius-md);
-            overflow: hidden;
-            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-        }
-
-        .equip-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 48px rgba(0, 0, 0, 0.5);
-            border-color: rgba(255, 255, 255, 0.18);
-        }
-
-        /* Table — improved readability */
-        .spec-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .spec-table tr {
-            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-        }
-
-        .spec-table tr:last-child {
-            border-bottom: none;
-        }
-
-        .spec-label {
-            padding: 13px 16px 13px 0;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 1.2px;
-            color: rgba(255, 255, 255, 0.55);
-            width: 40%;
-            vertical-align: top;
-            font-weight: 600;
-        }
-
-        .spec-value {
-            padding: 13px 0;
-            color: white;
-            font-size: 1rem;
-            font-weight: 600;
-            vertical-align: top;
-            line-height: 1.4;
-        }
-
-        .spec-note {
-            color: rgba(255, 255, 255, 0.55);
-            font-size: 0.85rem;
-            line-height: 1.65;
-            margin-top: 16px;
-            border-top: 1px solid rgba(255, 255, 255, 0.08);
-            padding-top: 16px;
-        }
-
-        /* Card header */
-        .equip-card-header {
-            padding: 22px 26px;
-            display: flex;
-            align-items: center;
-            gap: 14px;
-        }
-
-        .equip-card-icon {
-            width: 44px;
-            height: 44px;
-            background: rgba(255, 255, 255, 0.18);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-        }
-
-        .equip-card-title {
-            color: white;
-            font-size: 1.15rem;
-            font-weight: 700;
-            margin: 0;
-            letter-spacing: -0.3px;
-        }
-
-        .equip-card-body {
-            padding: 26px 26px 28px;
-        }
-    </style>
+</head>
 
 
 <body>
@@ -155,16 +42,20 @@
                 </ul>
             </nav>
 
-            <div class="logo">
-                <a href="index.html">
-                    Silence. On danse!
-                </a>
+            <div class="logo-group">
+                <div class="logo">
+                    <a href="index.html">
+                        Silence. On danse!
+                    </a>
+                </div>
+                <a href="contact.html" class="btn-outline-small d-none-mobile">RÉSERVER NOS SERVICES</a>
             </div>
 
             <nav class="nav-right">
                 <ul>
                     <li><a href="photos.html">PHOTOTHÈQUE</a></li>
-                    <li><a href="contact.html" class="btn-outline-small">RÉSERVER NOS SERVICES</a></li>
+                    <li class="d-block-mobile"><a href="contact.html" class="btn-outline-small">RÉSERVER NOS
+                            SERVICES</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
@@ -181,67 +72,47 @@
     <section class="hero hero-fiche" id="hero-fiche">
         <div class="hero-overlay"></div>
         <div class="hero-content reveal">
-            <h1 style="font-size: var(--font-size-3xl);">Silence. On danse ! Partout avec vous.</h1>
+            <h1 class="fs-3xl">Silence. On danse ! Partout avec vous.</h1>
         </div>
     </section>
 
     <!-- Technical Details Section -->
-    <section class="technical-details" id="details"
-        style="background-color: var(--color-bg-dark); padding: 100px 0 80px;">
+    <section class="technical-details" id="details">
         <div class="container">
 
             <!-- Section Heading -->
-            <div class="reveal fade-up" style="text-align: center; margin-bottom: 65px;">
-                <span
-                    style="font-size: 0.78rem; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: var(--color-primary-light); display: block; margin-bottom: 16px;">ÉQUIPEMENT
-                    PROFESSIONNEL</span>
-                <h2
-                    style="color: white; font-size: clamp(2.2rem, 4vw, 3rem); margin-bottom: 18px; letter-spacing: -1px;">
-                    Informations Techniques</h2>
-                <div style="width: 60px; height: 3px; background: var(--color-primary-light); margin: 0 auto 24px;">
-                </div>
-                <p
-                    style="color: rgba(255,255,255,0.6); font-size: 1.1rem; max-width: 680px; margin: 0 auto; line-height: 1.7;">
+            <div class="tech-header reveal fade-up">
+                <span class="label">ÉQUIPEMENT PROFESSIONNEL</span>
+                <h2>Informations Techniques</h2>
+                <div class="divider-center"></div>
+                <p>
                     Tout ce que vous devez savoir sur notre équipement professionnel pour une expérience immersive
                     réussie.
                 </p>
             </div>
 
             <!-- Quick Stats Bar -->
-            <div class="reveal fade-up"
-                style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: rgba(255,255,255,0.07); border-radius: var(--radius-md); overflow: hidden; margin-bottom: 70px; max-width: 700px; margin-left: auto; margin-right: auto;">
-                <div style="background: rgba(255,255,255,0.04); padding: 28px 20px; text-align: center;">
-                    <div
-                        style="font-size: 2.4rem; font-weight: 900; color: var(--color-primary-light); line-height: 1;">
-                        300<span style="font-size: 1.2rem;">m</span></div>
-                    <div
-                        style="font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-top: 8px;">
-                        Portée signal</div>
+            <div class="tech-stats-bar reveal fade-up">
+                <div class="stat-item">
+                    <div class="stat-val">300<span>m</span></div>
+                    <div class="stat-label">Portée signal</div>
                 </div>
-                <div style="background: rgba(255,255,255,0.04); padding: 28px 20px; text-align: center;">
-                    <div
-                        style="font-size: 2.4rem; font-weight: 900; color: var(--color-primary-light); line-height: 1;">
-                        3</div>
-                    <div
-                        style="font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-top: 8px;">
-                        Canaux FM</div>
+                <div class="stat-item">
+                    <div class="stat-val">3</div>
+                    <div class="stat-label">Canaux FM</div>
                 </div>
-                <div style="background: rgba(255,255,255,0.04); padding: 28px 20px; text-align: center;">
-                    <div
-                        style="font-size: 2.4rem; font-weight: 900; color: var(--color-primary-light); line-height: 1;">
-                        12<span style="font-size: 1.2rem;">h</span></div>
-                    <div
-                        style="font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-top: 8px;">
-                        Autonomie max</div>
+                <div class="stat-item">
+                    <div class="stat-val">12<span>h</span></div>
+                    <div class="stat-label">Autonomie max</div>
                 </div>
             </div>
 
             <!-- Equipment Cards Grid -->
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 28px;">
+            <div class="equip-grid">
 
                 <!-- Casques -->
-                <div class="equip-card reveal fade-up" style="transition-delay: 0.0s;">
-                    <div class="equip-card-header" style="background: var(--color-primary);">
+                <div class="equip-card reveal fade-up">
+                    <div class="equip-card-header border-primary">
                         <div class="equip-card-icon">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
                                 <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
@@ -269,15 +140,11 @@
                             <tr>
                                 <td class="spec-label">Voyants</td>
                                 <td class="spec-value">
-                                    <span style="display: inline-flex; gap: 8px; align-items: center; flex-wrap: wrap;">
-                                        <span
-                                            style="width: 11px; height: 11px; border-radius: 50%; background: #ff3b30; box-shadow: 0 0 8px #ff3b30; flex-shrink:0;"></span>
-                                        <span
-                                            style="width: 11px; height: 11px; border-radius: 50%; background: #007aff; box-shadow: 0 0 8px #007aff; flex-shrink:0;"></span>
-                                        <span
-                                            style="width: 11px; height: 11px; border-radius: 50%; background: #34c759; box-shadow: 0 0 8px #34c759; flex-shrink:0;"></span>
-                                        <span style="color: rgba(255,255,255,0.7); font-size: 0.85rem;">rouge, bleu,
-                                            vert</span>
+                                    <span class="dot-base dot-glow-red"></span>
+                                    <span class="dot-base dot-glow-blue"></span>
+                                    <span class="dot-base dot-glow-green"></span>
+                                    <span class="text-muted-light fs-xs">rouge, bleu,
+                                        vert</span>
                                     </span>
                                 </td>
                             </tr>
@@ -288,8 +155,8 @@
                 </div>
 
                 <!-- Émetteurs Portables -->
-                <div class="equip-card reveal fade-up" style="transition-delay: 0.1s;">
-                    <div class="equip-card-header" style="background: var(--color-accent);">
+                <div class="equip-card reveal fade-up reveal-delay-1">
+                    <div class="equip-card-header border-accent">
                         <div class="equip-card-icon">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
                                 <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
@@ -314,15 +181,15 @@
                             </tr>
                             <tr>
                                 <td class="spec-label">Sans fil</td>
-                                <td class="spec-value" style="color: #34c759;">✓ Bluetooth</td>
+                                <td class="spec-value text-success">✓ Bluetooth</td>
                             </tr>
                         </table>
                     </div>
                 </div>
 
                 <!-- Émetteur Filaire -->
-                <div class="equip-card reveal fade-up" style="transition-delay: 0.2s;">
-                    <div class="equip-card-header" style="background: var(--color-primary-dark);">
+                <div class="equip-card reveal fade-up reveal-delay-2">
+                    <div class="equip-card-header border-primary-dark">
                         <div class="equip-card-icon">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
                                 <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
@@ -350,9 +217,8 @@
                 </div>
 
                 <!-- Microphone & Portée -->
-                <div class="equip-card reveal fade-up" style="transition-delay: 0.3s;">
-                    <div class="equip-card-header"
-                        style="background: linear-gradient(135deg, #4E1C5D 0%, #1a3a6e 100%);">
+                <div class="equip-card reveal fade-up reveal-delay-3">
+                    <div class="equip-card-header border-dark-blue">
                         <div class="equip-card-icon">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
                                 <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
@@ -375,8 +241,7 @@
                             </tr>
                             <tr>
                                 <td class="spec-label">Fonction</td>
-                                <td class="spec-value"
-                                    style="color: rgba(255,255,255,0.8); font-size: 0.92rem; line-height: 1.5;">
+                                <td class="spec-value text-muted-light fs-xs-tight">
                                     Communication directe avec le public par-dessus la bande sonore</td>
                             </tr>
                         </table>
@@ -386,9 +251,9 @@
             </div>
 
             <!-- CTA -->
-            <div class="reveal fade-up" style="text-align: center; margin-top: 70px;">
-                <a href="contact.html" id="fiche-cta" class="btn-primary"
-                    style="padding: 1.25rem 3rem; font-size: var(--font-size-base);">RÉSERVEZ VOTRE ÉVÉNEMENT</a>
+            <div class="reveal fade-up text-center mt-56">
+                <a href="contact.html" id="fiche-cta" class="btn-primary fs-base btn-wide">RÉSERVEZ
+                    VOTRE ÉVÉNEMENT</a>
             </div>
         </div>
     </section>
@@ -408,7 +273,10 @@
                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                         </svg></a>
                 </div>
-                <p class="copyright">&copy; 2026 Silence. On danse !</p>
+                <p class="copyright">&copy; 2026 Silence. On danse !<br>
+                    <span class="reveal-on-click reveal-btn-footer" data-e="infosilenceondanse@gmail.com">[Afficher le
+                        courriel]</span>
+                </p>
             </div>
         </div>
     </footer>

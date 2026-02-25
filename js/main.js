@@ -102,10 +102,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // 5. Floating cards — stagger animation on scroll entry
-    const floatingCards = document.querySelectorAll('.floating-card');
-    floatingCards.forEach((card, i) => {
-        card.style.animationDelay = `${i * -2.5}s`;
-    });
+    const cardQuestion = document.querySelector('.card-question');
+    const cardAnswer = document.querySelector('.card-answer');
+
+    if (cardQuestion && cardAnswer) {
+        // We set initial animation delays for the floating effect
+        cardQuestion.style.animationDelay = '0s';
+        cardAnswer.style.animationDelay = '-2.5s';
+
+        // Ensure reveal delay is sequenced in transition-delay if reveals are used
+        const questionCol = cardQuestion.closest('.reveal');
+        const answerCol = cardAnswer.closest('.reveal');
+
+        if (questionCol) questionCol.style.transitionDelay = '0s';
+        if (answerCol) answerCol.style.transitionDelay = '0.35s';
+    }
 
     // 6. Smooth Scrolling for Anchor Links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -167,14 +178,20 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 9. Contact Form Handling (Netlify AJAX)
+    // 9. Contact Form Handling (Robust Netlify AJAX)
     const contactForm = document.getElementById('contact-form');
     const successMsg = document.getElementById('form-success');
     const errorMsg = document.getElementById('form-error');
+    const formSubmitBtn = document.getElementById('contact-submit');
 
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
+
+            // Visual feedback
+            const originalBtnText = formSubmitBtn.innerText;
+            formSubmitBtn.innerText = 'ENVOI EN COURS...';
+            formSubmitBtn.disabled = true;
 
             const formData = new FormData(contactForm);
 
@@ -183,16 +200,55 @@ document.addEventListener('DOMContentLoaded', () => {
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: new URLSearchParams(formData).toString(),
             })
-                .then(() => {
-                    contactForm.style.display = 'none';
-                    if (successMsg) successMsg.style.display = 'block';
-                    successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                .then(response => {
+                    if (response.ok) {
+                        // Success Workflow
+                        contactForm.style.display = 'none';
+                        if (successMsg) {
+                            successMsg.innerHTML = `
+                                <strong>Message envoyé ! ✓</strong><br>
+                                <p style="margin-top: 10px; font-size: 0.95rem;">Nous avons bien reçu votre demande. Un courriel de confirmation (CC) vous a été envoyé automatiquement.</p>
+                                <p style="margin-top: 5px; font-size: 0.95rem;">Alex ou un membre de l'équipe vous répondra sous peu.</p>
+                            `;
+                            successMsg.style.display = 'block';
+                            successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }
+                    } else {
+                        throw new Error('Network response was not ok');
+                    }
                 })
                 .catch((error) => {
-                    if (errorMsg) errorMsg.style.display = 'block';
+                    // Error Workflow — DO NOT HIDE FORM
+                    formSubmitBtn.innerText = originalBtnText;
+                    formSubmitBtn.disabled = false;
+
+                    if (errorMsg) {
+                        const userMessage = contactForm.querySelector('textarea')?.value || '';
+                        errorMsg.innerHTML = `
+                            <strong>Oups ! Le formulaire a bogué.</strong><br>
+                            <p style="margin-top: 10px; font-size: 0.9rem;">Désolé, nous avons un problème technique momentané.</p>
+                            <p class="form-fallback-msg">Voici votre message à copier :</p>
+                            <div class="form-fallback-code">${userMessage}</div>
+                            <p class="form-fallback-footer">Veuillez l'envoyer directement par courriel à : <br><a href="mailto:infosilenceondanse@gmail.com" class="form-fallback-link">infosilenceondanse@gmail.com</a></p>
+                        `;
+                        errorMsg.style.display = 'block';
+                        errorMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
                     console.error('Form submission error:', error);
                 });
         });
     }
 
+    // 10. Reveal Contact Info (Anti-Spam)
+    document.querySelectorAll('.reveal-on-click').forEach(element => {
+        element.addEventListener('click', () => {
+            const secret = element.getAttribute('data-p') || element.getAttribute('data-e');
+            if (secret) {
+                element.innerText = secret;
+                element.classList.remove('reveal-on-click');
+                element.style.cursor = 'text';
+                element.style.borderBottom = 'none';
+            }
+        });
+    });
 });

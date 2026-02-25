@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photothèque | Silence. On danse ! - Galerie Événements Silent Disco</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <meta name="description"
         content="Découvrez nos événements en images. Silente disco dans les parcs, soirées urbaines, animations pour enfants and expériences immersives uniques.">
 
@@ -25,60 +26,7 @@
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <style>
-        /* Photo Gallery specific styles */
-        .photo-gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 8px;
-        }
 
-        .gallery-item {
-            overflow: hidden;
-            position: relative;
-            background: var(--color-bg-darker);
-            aspect-ratio: 4 / 3;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .gallery-item:hover img {
-            transform: scale(1.06);
-        }
-
-        .gallery-item::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(to bottom, transparent 60%, rgba(55, 18, 67, 0.4) 100%);
-            opacity: 0;
-            transition: opacity 0.4s ease;
-            pointer-events: none;
-        }
-
-        .gallery-item:hover::after {
-            opacity: 1;
-        }
-
-        @media (max-width: 768px) {
-            .photo-gallery-grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 6px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .photo-gallery-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -94,16 +42,20 @@
                 </ul>
             </nav>
 
-            <div class="logo">
-                <a href="index.html">
-                    Silence. On danse!
-                </a>
+            <div class="logo-group">
+                <div class="logo">
+                    <a href="index.html">
+                        Silence. On danse!
+                    </a>
+                </div>
+                <a href="contact.html" class="btn-outline-small d-none-mobile">RÉSERVER NOS SERVICES</a>
             </div>
 
             <nav class="nav-right">
                 <ul>
                     <li><a href="photos.html">PHOTOTHÈQUE</a></li>
-                    <li><a href="contact.html" class="btn-outline-small">RÉSERVER NOS SERVICES</a></li>
+                    <li class="d-block-mobile"><a href="contact.html" class="btn-outline-small">RÉSERVER NOS
+                            SERVICES</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
@@ -118,18 +70,15 @@
 
 
     <!-- Photo Gallery Grid -->
-    <section class="gallery-grid-section" id="gallery" style="padding: 120px 0 60px; background: #0d0d0d;">
+    <section class="gallery-grid-section" id="gallery">
         <div class="container">
-            <div class="reveal fade-up" style="text-align: center; margin-bottom: 50px;">
-                <span
-                    style="font-size: 0.78rem; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: var(--color-primary-light); display: block; margin-bottom: 14px;">NOS
+            <div class="reveal fade-up text-center mb-50">
+                <span class="label-caps text-primary-light">NOS
                     ÉVÉNEMENTS</span>
-                <h1
-                    style="color: white; font-size: clamp(2.2rem, 4vw, 3rem); margin-bottom: 18px; letter-spacing: -1px;">
+                <h1 class="text-white fs-3xl mb-18">
                     Photothèque</h1>
-                <div style="width: 50px; height: 3px; background: var(--color-primary-light); margin: 0 auto 22px;">
-                </div>
-                <p style="color: rgba(255,255,255,0.55); font-size: 1.05rem;">Quelques moments capturés lors de nos
+                <div class="divider-center"></div>
+                <p class="text-muted-light">Quelques moments capturés lors de nos
                     événements.</p>
             </div>
 
@@ -175,31 +124,26 @@
     </section>
 
     <!-- Video Section -->
-    <section class="promotional-video" id="video-section" style="padding: 80px 0 100px; background: #111111;">
+    <section class="video-section" id="video-section">
         <div class="container">
-            <div class="reveal fade-up" style="text-align: center; margin-bottom: 44px;">
-                <span
-                    style="font-size: 0.78rem; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: var(--color-primary-light); display: block; margin-bottom: 14px;">VIDÉO
+            <div class="reveal fade-up text-center mb-44">
+                <span class="label-caps text-primary-light">VIDÉO
                     PROMOTIONNELLE</span>
-                <h2
-                    style="color: white; font-size: clamp(1.8rem, 3vw, 2.5rem); letter-spacing: -0.5px; margin-bottom: 14px;">
+                <h2 class="text-white fs-2xl mb-14">
                     L'Expérience en Mouvement</h2>
-                <p style="color: rgba(255,255,255,0.5); font-size: 1rem; margin-top: 10px;">Découvrez l'énergie Silence.
+                <p class="text-muted-light">Découvrez l'énergie Silence.
                     On danse ! à travers notre vidéo promotionnelle.</p>
             </div>
 
-            <div class="reveal fade-up"
-                style="max-width: 900px; margin: 0 auto; border-radius: var(--radius-md); overflow: hidden; position: relative; padding-top: 56.25%; box-shadow: 0 30px 80px rgba(0,0,0,0.5);">
-                <video id="promo-video" controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                    poster="assets/images/about-legs.jpg">
+            <div class="reveal fade-up video-wrapper">
+                <video id="promo-video" controls class="video-player" poster="assets/images/about-legs.jpg">
                     <source src="assets/video/phototheque.mp4" type="video/mp4">
                     Votre navigateur ne supporte pas la lecture de vidéos.
                 </video>
             </div>
 
-            <div class="reveal fade-up" style="text-align: center; margin-top: 56px;">
-                <a href="contact.html" class="btn-primary" id="gallery-cta"
-                    style="padding: 1.25rem 3rem; font-size: 1rem;">RÉSERVEZ NOS SERVICES</a>
+            <div class="reveal fade-up text-center mt-56">
+                <a href="contact.html" class="btn-primary fs-base" id="gallery-cta">RÉSERVEZ NOS SERVICES</a>
             </div>
         </div>
     </section>
@@ -218,7 +162,10 @@
                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                         </svg></a>
                 </div>
-                <p class="copyright">&copy; 2026 Silence. On danse !</p>
+                <p class="copyright">&copy; 2026 Silence. On danse !<br>
+                    <span class="reveal-on-click reveal-btn-footer" data-e="infosilenceondanse@gmail.com">[Afficher le
+                        courriel]</span>
+                </p>
             </div>
         </div>
     </footer>

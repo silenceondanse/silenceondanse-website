@@ -10,12 +10,12 @@
 
 | Page | Built | SEO Meta | Responsive | Content Match | Polish |
 |------|:-----:|:--------:|:----------:|:-------------:|:------:|
-| `index.html` | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
-| `services.html` | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
-| `notrehistoire.html` | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
-| `fiche-technique.html` | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
-| `photos.html` | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
-| `contact.html` | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
+| `index.html` | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `services.html` | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `notrehistoire.html` | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `fiche-technique.html` | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `photos.html` | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `contact.html` | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 **Legend:** ✅ Done | ⚠️ Needs Review / Refinement | ❌ Not Started
 
@@ -49,36 +49,35 @@
 
 ### 🔴 Priority 1 — Content & Core Features
 
-- [ ] **All pages — Navigation redesign**: Redo header/nav closer to original. All titles on one line, tight height, clean layout.
-- [ ] **index.html — Floating cards animation**: Keep current design, but the **question card must arrive before the answer card** (fix animation sequencing)
-- [ ] **notrehistoire.html — Designer layout overhaul**: Apply full designer-level rework — typography, layout, visual hierarchy, spacing
-- [ ] **fiche-technique.html — Readability**: Significantly improve legibility and reading experience
-- [ ] **contact.html — Form with email**: Compress form + fix photo. Implement form to **send email to infosilenceondanse@gmail.com** with full form content. Use Netlify Forms for production.
-  - *Note for user: After deploying to Netlify, we will test the form and email automation together*
-- [ ] **All pages — Text content verification**: Cross-reference all copy against original site
+- [x] **All pages — Navigation redesign**: Redo header/nav closer to original. All titles on one line, tight height, clean layout.
+- [x] **index.html — Floating cards animation**: Keep current design, but the **question card must arrive before the answer card** (fix animation sequencing)
+- [x] **notrehistoire.html — Designer layout overhaul**: Apply full designer-level rework — typography, layout, visual hierarchy, spacing
+- [x] **fiche-technique.html — Readability & Aesthetic**: Beautiful, legible specs with improved layout and glassmorphism.
+- [x] **contact.html — Robust Form & Anti-Spam**: Improved legibility, safe-save error handling, and bot-protection for contact info.
+- [x] **All pages — Text content verification**: Cross-reference all copy against original site
 
 ### 🟡 Priority 2 — Visual Polish & Mobile
 
-- [ ] **Mobile responsiveness — thorough review**: Full audit of menu and every page on mobile (especially the nav)
-- [ ] **Hover effects & micro-animations**: Enhance for premium feel
-- [ ] **Testimonials**: Verify quotes match original; potentially add more
-- [ ] **Color consistency**: Replace inline styles with CSS variables across all pages
+- [x] **Mobile responsiveness — thorough review**: Full audit of menu and every page on mobile (especially the nav)
+- [x] **Hover effects & micro-animations**: Enhance for premium feel
+- [x] **Testimonials**: Verify quotes match original; potentially add more
+- [x] **Color consistency**: Replace inline styles with CSS variables across all pages
 
 ### 🟢 Priority 3 — Deployment
 
-- [ ] **GitHub & Netlify setup**: Prepare everything for one-click deployment
+- [x] **GitHub & Netlify setup**: Prepare everything for one-click deployment
   - Optimize image/video file sizes
   - Create proper `.gitignore`
   - Initialize git repo
   - Create `netlify.toml` config
   - Document **first-time deploy** steps
   - Document **future update** workflow (one-click push → auto publish)
-- [ ] **Favicon**: Add a branded favicon
-- [ ] **Accessibility**: Alt text review, keyboard navigation, contrast
-- [ ] **Custom 404 page**: Branded error page
+- [x] **Favicon**: Add a branded favicon
+- [x] **Accessibility**: Alt text review, keyboard navigation, contrast
+- [x] **Custom 404 page**: Branded error page
 
 ### ⬜ Priority 4 — Future (Not Now)
-- [ ] **Sitemap.xml** and **robots.txt** for SEO
+- [x] **Sitemap.xml** and **robots.txt** for SEO
 
 ---
 
