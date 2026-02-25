@@ -194,10 +194,16 @@ document.addEventListener('DOMContentLoaded', () => {
             formSubmitBtn.disabled = true;
 
             const formData = new FormData(contactForm);
+            // Required for Netlify AJAX
+            const searchParams = new URLSearchParams(formData);
+            searchParams.set("form-name", "contact");
+
+            console.log("Submitting form to Netlify...");
 
             fetch("/", {
                 method: "POST",
-                body: formData,
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: searchParams.toString(),
             })
                 .then(response => {
                     if (response.ok) {
