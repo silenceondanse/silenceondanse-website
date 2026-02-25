@@ -178,7 +178,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    /* 
     // 9. Contact Form Handling (Robust Netlify AJAX)
     const contactForm = document.getElementById('contact-form');
     const successMsg = document.getElementById('form-success');
@@ -199,8 +198,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const searchParams = new URLSearchParams(formData);
             searchParams.set("form-name", "contact");
 
-            console.log("Submitting form to Netlify...");
-
             fetch("/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -213,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (successMsg) {
                             successMsg.innerHTML = `
                                 <strong>Message envoyé ! ✓</strong><br>
-                                <p style="margin-top: 10px; font-size: 0.95rem;">Nous avons bien reçu votre demande. Un courriel de confirmation (CC) vous a été envoyé automatiquement.</p>
+                                <p style="margin-top: 10px; font-size: 0.95rem;">Nous avons bien reçu votre demande.</p>
                                 <p style="margin-top: 5px; font-size: 0.95rem;">Alex ou un membre de l'équipe vous répondra sous peu.</p>
                             `;
                             successMsg.style.display = 'block';
@@ -233,11 +230,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (errorMsg) {
                         const userMessage = contactForm.querySelector('textarea')?.value || '';
                         errorMsg.innerHTML = `
-                            <strong>Oups ! Le formulaire a bogué (Error: ${error.message}).</strong><br>
-                            <p style="margin-top: 10px; font-size: 0.9rem;">Désolé, nous avons un problème technique momentané.</p>
-                            <p class="form-fallback-msg">Voici votre message à copier :</p>
+                            <strong>Oups ! Le formulaire a bogué.</strong><br>
+                            <p style="margin-top: 10px; font-size: 0.9rem;">Problème technique momentané. Voici votre message :</p>
                             <div class="form-fallback-code">${userMessage}</div>
-                            <p class="form-fallback-footer">Veuillez l'envoyer directement par courriel à : <br><a href="mailto:infosilenceondanse@gmail.com" class="form-fallback-link">infosilenceondanse@gmail.com</a></p>
+                            <p class="form-fallback-footer">Envoyez-le directement à : <br><a href="mailto:infosilenceondanse@gmail.com" class="form-fallback-link">infosilenceondanse@gmail.com</a></p>
                         `;
                         errorMsg.style.display = 'block';
                         errorMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -245,7 +241,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
         });
     }
-    */
 
     // 10. Reveal Contact Info (Anti-Spam)
     document.querySelectorAll('.reveal-on-click').forEach(element => {
