@@ -1,0 +1,74 @@
+/* css/variables.css */
+:root {
+    /* Colors */
+    --color-primary: #4E1C5D;
+    /* Deep Purple */
+    --color-primary-light: #6a2a7e;
+    --color-primary-dark: #371243;
+
+    --color-bg-light: #F7F7F8;
+    /* Off-White */
+    --color-bg-dark: #1A1A1A;
+    --color-bg-darker: #111111;
+
+    --color-text-main: #333333;
+    --color-text-muted: #6C6C6C;
+    --color-text-light: #FFFFFF;
+
+    --color-channel-red: #ff3b30;
+    --color-channel-blue: #007aff;
+    --color-channel-green: #34c759;
+
+    --color-accent: #E1AF3E;
+    /* Gold/Accent */
+    --color-accent-light: #f2c94c;
+
+    /* Typography */
+    --font-family-main: 'Chivo', sans-serif;
+
+    --font-size-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+    --font-size-sm: clamp(0.875rem, 0.8rem + 0.375vw, 1rem);
+    --font-size-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+    --font-size-lg: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+    --font-size-xl: clamp(1.5rem, 1.3rem + 1vw, 2rem);
+    --font-size-2xl: clamp(2rem, 1.7rem + 1.5vw, 2.75rem);
+    --font-size-3xl: clamp(2.5rem, 2rem + 2.5vw, 3.5rem);
+    --font-size-4xl: clamp(3rem, 2.5rem + 3.5vw, 5rem);
+
+    --line-height-tight: 1.2;
+    --line-height-base: 1.6;
+    --line-height-relaxed: 1.8;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.15);
+    --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.25);
+    --shadow-glow: 0 0 20px rgba(78, 28, 93, 0.4);
+    --shadow-glow-accent: 0 0 20px rgba(225, 175, 62, 0.4);
+
+    /* Spacing */
+    --space-2xs: 0.25rem;
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 2rem;
+    --space-lg: 4rem;
+    --space-xl: 6rem;
+    --space-2xl: 8rem;
+
+    /* Layout */
+    --container-max-width: 1200px;
+    --container-padding: 2rem;
+
+    /* Transitions */
+    --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+    --radius-pill: 100px;
+    --radius-full: 9999px;
+}

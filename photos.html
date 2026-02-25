@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photothèque | Silence. On danse ! - Galerie Événements Silent Disco</title>
+    <meta name="description"
+        content="Découvrez nos événements en images. Silente disco dans les parcs, soirées urbaines, animations pour enfants and expériences immersives uniques.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.silenceondanse.ca/photos">
+    <meta property="og:title" content="Photothèque | Silence. On danse ! - Galerie Événements Silent Disco">
+    <meta property="og:description"
+        content="Visionnez nos vidéos promotionnelles and notre galerie de photos d'événements passés.">
+    <meta property="og:image" content="https://www.silenceondanse.ca/assets/images/about-legs.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* Photo Gallery specific styles */
+        .photo-gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+            position: relative;
+            background: var(--color-bg-darker);
+            aspect-ratio: 4 / 3;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.06);
+        }
+
+        .gallery-item::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, transparent 60%, rgba(55, 18, 67, 0.4) 100%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            pointer-events: none;
+        }
+
+        .gallery-item:hover::after {
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            .photo-gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 6px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .photo-gallery-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <nav class="nav-left">
+                <ul>
+                    <li><a href="services.html">NOS SERVICES</a></li>
+                    <li><a href="notrehistoire.html">NOTRE HISTOIRE</a></li>
+                    <li><a href="fiche-technique.html">FICHE TECHNIQUE</a></li>
+                </ul>
+            </nav>
+
+            <div class="logo">
+                <a href="index.html">
+                    Silence. On danse!
+                </a>
+            </div>
+
+            <nav class="nav-right">
+                <ul>
+                    <li><a href="photos.html">PHOTOTHÈQUE</a></li>
+                    <li><a href="contact.html" class="btn-outline-small">RÉSERVER NOS SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Photo Gallery Grid -->
+    <section class="gallery-grid-section" id="gallery" style="padding: 120px 0 60px; background: #0d0d0d;">
+        <div class="container">
+            <div class="reveal fade-up" style="text-align: center; margin-bottom: 50px;">
+                <span
+                    style="font-size: 0.78rem; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: var(--color-primary-light); display: block; margin-bottom: 14px;">NOS
+                    ÉVÉNEMENTS</span>
+                <h1
+                    style="color: white; font-size: clamp(2.2rem, 4vw, 3rem); margin-bottom: 18px; letter-spacing: -1px;">
+                    Photothèque</h1>
+                <div style="width: 50px; height: 3px; background: var(--color-primary-light); margin: 0 auto 22px;">
+                </div>
+                <p style="color: rgba(255,255,255,0.55); font-size: 1.05rem;">Quelques moments capturés lors de nos
+                    événements.</p>
+            </div>
+
+            <div class="photo-gallery-grid reveal">
+                <div class="gallery-item">
+                    <img src="assets/images/20a57e5-8bc4-47f-7b41-b44ceecaf810_Silence-on-danse_Halloween_Sutton-72.jpeg"
+                        alt="Soirée Halloween à Sutton" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/27652a8-f2a2-c0cf-5ce1-f6a843a536e2_patin_2.jpeg" alt="Danse sur patins"
+                        loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/cdbbffa-5bb-fbd4-2e71-4b4d180b373_feu_oneka.jpeg" alt="Danse près du feu"
+                        loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/5d1514-666-2d08-467b-baed7fecdfb2_Danse_couleurs.jpg" alt="Danse colorée"
+                        loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/4e64fb-cfdf-e0fc-082e-b017e4e8d35_patin.jpeg" alt="Patinage festif"
+                        loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/f31b07d-e23-c01a-8ce-35c43424b4ff_Haloween_5.jpeg" alt="Halloween Sutton 5"
+                        loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/345380b-15f3-4774-a83e-c2b30a48d0d_Haloween_3.jpeg" alt="Halloween Sutton 3"
+                        loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/4371a73-423d-d8c2-5b6d-8381fcdecbe_Couleurs_1.jpg" alt="Lumières colorées 1"
+                        loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/6d6471-41ac-067c-c202-78f35a537d14_Couleurs_2.jpg" alt="Lumières colorées 2"
+                        loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="promotional-video" id="video-section" style="padding: 80px 0 100px; background: #111111;">
+        <div class="container">
+            <div class="reveal fade-up" style="text-align: center; margin-bottom: 44px;">
+                <span
+                    style="font-size: 0.78rem; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: var(--color-primary-light); display: block; margin-bottom: 14px;">VIDÉO
+                    PROMOTIONNELLE</span>
+                <h2
+                    style="color: white; font-size: clamp(1.8rem, 3vw, 2.5rem); letter-spacing: -0.5px; margin-bottom: 14px;">
+                    L'Expérience en Mouvement</h2>
+                <p style="color: rgba(255,255,255,0.5); font-size: 1rem; margin-top: 10px;">Découvrez l'énergie Silence.
+                    On danse ! à travers notre vidéo promotionnelle.</p>
+            </div>
+
+            <div class="reveal fade-up"
+                style="max-width: 900px; margin: 0 auto; border-radius: var(--radius-md); overflow: hidden; position: relative; padding-top: 56.25%; box-shadow: 0 30px 80px rgba(0,0,0,0.5);">
+                <video id="promo-video" controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                    poster="assets/images/about-legs.jpg">
+                    <source src="assets/video/phototheque.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la lecture de vidéos.
+                </video>
+            </div>
+
+            <div class="reveal fade-up" style="text-align: center; margin-top: 56px;">
+                <a href="contact.html" class="btn-primary" id="gallery-cta"
+                    style="padding: 1.25rem 3rem; font-size: 1rem;">RÉSERVEZ NOS SERVICES</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    Silence. On danse!
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/silenceondanse" target="_blank" aria-label="Facebook"><svg
+                            viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg></a>
+                </div>
+                <p class="copyright">&copy; 2026 Silence. On danse !</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

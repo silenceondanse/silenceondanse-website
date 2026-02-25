@@ -1,0 +1,3709 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+              <meta name="csrf-param" content="authenticity_token">
+              <meta name="csrf-token" content="+Bg/uskMXajfASi+7tntor69sbTe+TH2u/+5hJexPCAXA6FCqYhp2tS2vfKcLE4VsQhoapmFFXCnl3IiLNdBRg==">
+            
+    <title>
+      
+        Silence. On danse!
+      
+    </title>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <meta property="og:type" content="website">
+<meta property="og:url" content="https://www.silenceondanse.ca">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta property="og:title" content="Silence. On danse!">
+<meta name="twitter:title" content="Silence. On danse!">
+
+
+
+    
+      <link href="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/2148508173/images/bd16f23-8b7e-c428-333-577612adb862_b00be612-fee4-4db1-bf0f-457f3a85b5a5.png?v=2" rel="shortcut icon" />
+    
+    <link rel="canonical" href="https://www.silenceondanse.ca" />
+
+    <!-- Google Fonts ====================================================== -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute(&#39;media&#39;);" type="text/css" href="//fonts.googleapis.com/css?family=Chivo:400,700,400italic,700italic|Cabin:400,700,400italic,700italic&amp;display=swap" />
+
+    <!-- Kajabi CSS ======================================================== -->
+    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute(&#39;media&#39;);" type="text/css" href="https://kajabi-app-assets.kajabi-cdn.com/assets/core-0d125629e028a5a14579c81397830a1acd5cf5a9f3ec2d0de19efb9b0795fb03.css" />
+
+    
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute(&#39;media&#39;);" type="text/css" crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+
+    <link rel="stylesheet" media="screen" href="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2159529022/assets/styles.css?17628095866517031" />
+
+    <!-- Customer CSS ====================================================== -->
+    <!-- If you're using custom css that affects the first render of the page, replace async_style_link below with styesheet_tag -->
+    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute(&#39;media&#39;);" type="text/css" href="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2159529022/assets/overrides.css?17628095866517031" />
+    <style>
+  /* Custom CSS Added Via Theme Settings */
+  /* This creates bigger spacing between the main navigation menu items */
+
+.header__content--desktop .link-list__link {
+margin-left: 20px !important;
+margin-right: 20px !important;
+}
+
+
+/* This underlines the main navigation menu items when hovering over them */
+
+.header a.link-list__link:hover {
+text-decoration: underline !important;
+}
+
+
+/* This modifies the form fields to have squared edges and only show the bottom border */
+
+.form-control {
+border-radius: 0px !important;
+border-left-width: 0px !important;
+border-top-width: 0px !important;
+border-right-width: 0px !important;
+background-color: #ffffff00 !important;
+border-color: #ACACAC !important;
+}
+
+
+/* This removes the shadow from the form button */
+
+.form-btn {
+-webkit-box-shadow: 0 0px 0px rgb(0 0 0 / 10%) !important;
+box-shadow: 0 0px 0px rgb(0 0 0 / 10%) !important;
+}
+
+
+/* This removes the rounded corners of the filter field as seen on the Announcements and Blog Search Pages  */
+
+.filter__field {
+border-radius: 0px !important;
+}
+
+
+/* This removes the shadow from buttons throughout the site */
+
+.btn {
+-webkit-box-shadow: 0 0px 0px rgb(0 0 0 / 10%) !important;
+box-shadow: 0 0px 0px rgb(0 0 0 / 10%) !important;
+}
+
+
+/* This modifies the accordions to only show the bottom border */
+
+.block-type--accordion .block {
+border-top: 0px !important;
+border-left: 0px !important;
+border-right: 0px !important;
+}
+
+
+/* This adds more spacing between the login page title and login form fields */
+
+h1.auth__title { 
+margin-bottom: 40px; !important;
+}
+
+
+/* This reduces the h1 font size of the blog post title on the blog feed page on desktop  */
+
+@media (min-width: 768px) {
+h1.blog-post-body__title {
+font-size: 58px !important;
+}
+}
+
+/* This moves the podcast intro section up higher so that it is behind the transparent header. Delete this code if not using a transparent header for the website theme */
+
+.podcast-intro { 
+margin-top: -80px !important;
+padding-top: 80px !important;
+}
+
+
+/* This moves the coaching product hero section up higher so that it is behind the transparent header. Delete this code if not using a transparent header for the website theme */
+
+.coaching-programs__container { 
+margin-top: -94px !important;
+}
+
+.coaching-programs__header  {
+padding-top: 94px !important;
+}
+
+
+/* This removes the rounded corners on the error prompt */
+
+.parsley-errors-list {
+border-radius: 0px !important;
+}
+
+
+/* This removes the rounded corners on alert messages */
+
+.alert {
+border-radius: 0px !important;
+}
+
+
+/* This modifies the colors on the red alert message */
+
+.alert--danger {
+border-color: #7D251C !important;
+color: #7D251C !important;
+background-color: RGBA(125, 37, 28, 0.15) !important;
+}
+
+
+</style>
+
+    <!-- Kajabi Editor Only CSS ============================================ -->
+    
+
+    <!-- Header hook ======================================================= -->
+    <script type="text/javascript">
+  var Kajabi = Kajabi || {};
+</script>
+<script type="text/javascript">
+  Kajabi.currentSiteUser = {
+    "id" : "-1",
+    "type" : "Guest",
+    "contactId" : "",
+  };
+</script>
+<script type="text/javascript">
+  Kajabi.theme = {
+    activeThemeName: "Taylor",
+    previewThemeId: null,
+    editor: false
+  };
+</script>
+<meta name="turbo-prefetch" content="false">
+<style type="text/css">
+  #editor-overlay {
+    display: none;
+    border-color: #2E91FC;
+    position: absolute;
+    background-color: rgba(46,145,252,0.05);
+    border-style: dashed;
+    border-width: 3px;
+    border-radius: 3px;
+    pointer-events: none;
+    cursor: pointer;
+    z-index: 10000000000;
+  }
+  .editor-overlay-button {
+    color: white;
+    background: #2E91FC;
+    border-radius: 2px;
+    font-size: 13px;
+    margin-inline-start: -24px;
+    margin-block-start: -12px;
+    padding-block: 3px;
+    padding-inline: 10px;
+    text-transform:uppercase;
+    font-weight:bold;
+    letter-spacing:1.5px;
+
+    left: 50%;
+    top: 50%;
+    position: absolute;
+  }
+</style>
+<script src="https://kajabi-app-assets.kajabi-cdn.com/vite/assets/track_analytics-999259ad.js" crossorigin="anonymous" type="module"></script><link rel="modulepreload" href="https://kajabi-app-assets.kajabi-cdn.com/vite/assets/stimulus-576c66eb.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://kajabi-app-assets.kajabi-cdn.com/vite/assets/track_product_analytics-9c66ca0a.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://kajabi-app-assets.kajabi-cdn.com/vite/assets/stimulus-e54d982b.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://kajabi-app-assets.kajabi-cdn.com/vite/assets/trackProductAnalytics-3d5f89d8.js" as="script" crossorigin="anonymous">      <script type="text/javascript">
+        if (typeof (window.rudderanalytics) === "undefined") {
+          !function(){"use strict";window.RudderSnippetVersion="3.0.3";var sdkBaseUrl="https://cdn.rudderlabs.com/v3"
+          ;var sdkName="rsa.min.js";var asyncScript=true;window.rudderAnalyticsBuildType="legacy",window.rudderanalytics=[]
+          ;var e=["setDefaultInstanceKey","load","ready","page","track","identify","alias","group","reset","setAnonymousId","startSession","endSession","consent"]
+          ;for(var n=0;n<e.length;n++){var t=e[n];window.rudderanalytics[t]=function(e){return function(){
+          window.rudderanalytics.push([e].concat(Array.prototype.slice.call(arguments)))}}(t)}try{
+          new Function('return import("")'),window.rudderAnalyticsBuildType="modern"}catch(a){}
+          if(window.rudderAnalyticsMount=function(){
+          "undefined"==typeof globalThis&&(Object.defineProperty(Object.prototype,"__globalThis_magic__",{get:function get(){
+          return this},configurable:true}),__globalThis_magic__.globalThis=__globalThis_magic__,
+          delete Object.prototype.__globalThis_magic__);var e=document.createElement("script")
+          ;e.src="".concat(sdkBaseUrl,"/").concat(window.rudderAnalyticsBuildType,"/").concat(sdkName),e.async=asyncScript,
+          document.head?document.head.appendChild(e):document.body.appendChild(e)
+          },"undefined"==typeof Promise||"undefined"==typeof globalThis){var d=document.createElement("script")
+          ;d.src="https://polyfill-fastly.io/v3/polyfill.min.js?version=3.111.0&features=Symbol%2CPromise&callback=rudderAnalyticsMount",
+          d.async=asyncScript,document.head?document.head.appendChild(d):document.body.appendChild(d)}else{
+          window.rudderAnalyticsMount()}window.rudderanalytics.load("2apYBMHHHWpiGqicceKmzPebApa","https://kajabiaarnyhwq.dataplane.rudderstack.com",{})}();
+        }
+      </script>
+      <script type="text/javascript">
+        if (typeof (window.rudderanalytics) !== "undefined") {
+          rudderanalytics.page({"account_id":"2147652071","site_id":"2148508173"});
+        }
+      </script>
+      <script type="text/javascript">
+        if (typeof (window.rudderanalytics) !== "undefined") {
+          (function () {
+            function AnalyticsClickHandler (event) {
+              const targetEl = event.target.closest('a') || event.target.closest('button');
+              if (targetEl) {
+                rudderanalytics.track('Site Link Clicked', Object.assign(
+                  {"account_id":"2147652071","site_id":"2148508173"},
+                  {
+                    link_text: targetEl.textContent.trim(),
+                    link_href: targetEl.href,
+                    tag_name: targetEl.tagName,
+                  }
+                ));
+              }
+            };
+            document.addEventListener('click', AnalyticsClickHandler);
+          })();
+        }
+      </script>
+<meta name='site_locale' content='fr'><style type="text/css">
+  body main {
+    direction: ltr;
+  }
+  .slick-list {
+    direction: ltr;
+  }
+</style>
+<style type="text/css">
+  /* Font Awesome 4 */
+  .fa.fa-twitter{
+    font-family:sans-serif;
+  }
+  .fa.fa-twitter::before{
+    content:"𝕏";
+    font-size:1.2em;
+  }
+
+  /* Font Awesome 5 */
+  .fab.fa-twitter{
+    font-family:sans-serif;
+  }
+  .fab.fa-twitter::before{
+    content:"𝕏";
+    font-size:1.2em;
+  }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@kajabi-ui/styles@1.0.6/dist/kajabi_products/kajabi_products.css" />
+<script type="module" src="https://cdn.jsdelivr.net/npm/@pine-ds/core@3.18.0/dist/pine-core/pine-core.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@pine-ds/core@3.18.0/dist/pine-core/index.esm.js"></script>
+
+
+  </head>
+  <style>
+  
+
+  
+    
+      body {
+        background-color: #f7f7f8;
+      }
+    
+  
+</style>
+  <body id="encore-theme" class="background-light">
+    
+
+    <div id="section-header" data-section-id="header">
+
+<style>
+  /* Default Header Styles */
+  .header {
+    
+      background-color: #4e1c5d;
+    
+    font-size: 14px;
+  }
+  .header a,
+  .header a.link-list__link,
+  .header a.link-list__link:hover,
+  .header a.social-icons__icon,
+  .header .user__login a,
+  .header .dropdown__item a,
+  .header .dropdown__trigger:hover {
+    color: #ffffff;
+  }
+  .header .dropdown__trigger {
+    color: #ffffff !important;
+  }
+  /* Mobile Header Styles */
+  @media (max-width: 767px) {
+    .header {
+      
+      font-size: 16px;
+    }
+    
+    .header .hamburger__slices .hamburger__slice {
+      
+        background-color: #ffffff;
+      
+    }
+    
+      .header a.link-list__link, .dropdown__item a, .header__content--mobile {
+        text-align: left;
+      }
+    
+    .header--overlay .header__content--mobile  {
+      padding-bottom: 20px;
+    }
+  }
+  /* Sticky Styles */
+  
+    .header.header--fixed {
+      background-color: #4e1c5d;
+      
+        background-color: ;
+      
+      
+        background-color: #4e1c5d;
+      
+    }
+    
+      .header.header--fixed a,
+      .header.header--fixed a.link-list__link,
+      .header.header--fixed a.link-list__link:hover,
+      .header.header--fixed a.social-icons__icon,
+      .header.header--fixed .dropdown__trigger:hover,
+      .header.header--fixed .dropdown__item a,
+      .header.header--fixed .user__login a {
+        color: #ffffff;
+      }
+    
+    
+      .header.header--fixed .dropdown__trigger {
+        color: #ffffff !important;
+      }
+    
+    .header.header--fixed .hamburger__slice {
+      
+        background-color: #ffffff;
+      
+    }
+  
+</style>
+
+<div class="hidden">
+  
+    
+  
+    
+  
+    
+  
+  
+  
+  
+</div>
+
+<header class="header header--static sticky   background-dark header--close-on-scroll" kjb-settings-id="sections_header_settings_background_color">
+  <div class="hello-bars">
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+    <div class="header__wrap">
+      <div class="header__content header__content--desktop background-dark">
+        <div class="container header__container media justify-content-left">
+          
+            
+                <style>
+@media (min-width: 768px) {
+  #block-1607554198094 {
+    text-align: right;
+  }
+} 
+</style>
+
+<div 
+  id="block-1607554198094" 
+  class="header__block header__switch-content header__block--menu stretch" 
+  kjb-settings-id="sections_header_blocks_1607554198094_settings_stretch"
+  
+>
+  <div class="link-list justify-content-right" kjb-settings-id="sections_header_blocks_1607554198094_settings_menu">
+  
+    <a class="link-list__link" href="https://www.silenceondanse.ca/services" >NOS SERVICES</a>
+  
+    <a class="link-list__link" href="https://www.silenceondanse.ca/notrehistoire" >NOTRE HISTOIRE</a>
+  
+    <a class="link-list__link" href="https://www.silenceondanse.ca/fiche-technique" >FICHE TECHNIQUE</a>
+  
+</div>
+</div>
+              
+          
+            
+                <style>
+@media (min-width: 768px) {
+  #block-1555988494486 {
+    text-align: left;
+  }
+} 
+</style>
+
+<div 
+  id="block-1555988494486" 
+  class="header__block header__block--logo header__block--show header__switch-content " 
+  kjb-settings-id="sections_header_blocks_1555988494486_settings_stretch"
+  
+>
+  
+
+<style>
+  #block-1555988494486 {
+    line-height: 1;
+  }
+  #block-1555988494486 .logo__image {
+    display: block;
+    width: 50px;
+  }
+  #block-1555988494486 .logo__text {
+    color: #ffffff;
+  }
+</style>
+
+<a class="logo" href="/">
+  
+    <p class="logo__text" kjb-settings-id="sections_header_blocks_1555988494486_settings_logo_text">Silence. On danse!</p>
+  
+</a>
+</div>
+              
+          
+            
+                <style>
+@media (min-width: 768px) {
+  #block-1607554222849 {
+    text-align: left;
+  }
+} 
+</style>
+
+<div 
+  id="block-1607554222849" 
+  class="header__block header__switch-content header__block--menu stretch" 
+  kjb-settings-id="sections_header_blocks_1607554222849_settings_stretch"
+  
+>
+  <div class="link-list justify-content-left" kjb-settings-id="sections_header_blocks_1607554222849_settings_menu">
+  
+    <a class="link-list__link" href="https://www.silenceondanse.ca/photos" >PHOTOTHÈQUE</a>
+  
+    <a class="link-list__link" href="https://www.silenceondanse.ca/contact" >RÉSERVER NOS SERVICES</a>
+  
+    <a class="link-list__link" href="https://www.silenceondanse.ca/contact" >CONTACT</a>
+  
+</div>
+</div>
+              
+          
+          
+            <div class="hamburger hidden--desktop" kjb-settings-id="sections_header_settings_hamburger_color">
+              <div class="hamburger__slices">
+                <div class="hamburger__slice hamburger--slice-1"></div>
+                <div class="hamburger__slice hamburger--slice-2"></div>
+                <div class="hamburger__slice hamburger--slice-3"></div>
+                <div class="hamburger__slice hamburger--slice-4"></div>
+              </div>
+            </div>
+          
+          
+        </div>
+      </div>
+      <div class="header__content header__content--mobile">
+        <div class="header__switch-content header__spacer"></div>
+      </div>
+    </div>
+  
+</header>
+
+</div>
+    <main>
+      <div data-content-for-index data-dynamic-sections="index"><div id="section-1642543175262" data-section-id="1642543175262"><style>
+  
+  #section-1642543175262 .section__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  #section-1642543175262 .sizer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #section-1642543175262 .container {
+    max-width: calc(1260px + 10px + 10px);
+    padding-right: 10px;
+    padding-left: 10px;
+    
+  }
+  #section-1642543175262 .row {
+    
+  }
+  #section-1642543175262 .container--full {
+    width: 100%;
+    max-width: calc(100% + 10px + 10px);
+  }
+  @media (min-width: 768px) {
+    
+    #section-1642543175262 .sizer {
+      padding-top: 75px;
+      padding-bottom: 75px;
+    }
+    #section-1642543175262 .container {
+      max-width: calc(1260px + 40px + 40px);
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+    #section-1642543175262 .container--full {
+      max-width: calc(100% + 40px + 40px);
+    }
+  }
+  
+  
+</style>
+
+<section kjb-settings-id="sections_1642543175262_settings_background_color"
+  class="section
+  
+  
+   background-dark "
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds">
+  <div class="sizer ">
+    
+      
+
+
+<div id="wistia_1642543175262_oxsd8hdg0g" class="backgroundVideo" data-src="oxsd8hdg0g" data-img="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2149686872/settings_images/EVSzbMJTPGUmzwcxs4VR_bf03e7fe-2780-4a09-b261-d2d8190f4e68.png"></div>
+    
+    <div class="section__overlay"></div>
+    <div class="container ">
+      <div class="row align-items-center justify-content-center">
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+  
+  /* margin settings */
+  #block-1642543376011, [data-slick-id="1642543376011"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1642543376011 .block, [data-slick-id="1642543376011"] .block {
+    /* border settings */
+    border: 4px none black;
+    border-radius: 0px;
+    
+
+    /* background color */
+    
+    /* default padding for mobile */
+    
+    
+    
+    /* mobile padding overrides */
+    
+      padding: 0;
+    
+    
+    
+    
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1642543376011, [data-slick-id="1642543376011"] {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1642543376011 .block, [data-slick-id="1642543376011"] .block {
+      /* default padding for desktop  */
+      
+      
+      /* desktop padding overrides */
+      
+        padding: 0;
+      
+      
+      
+      
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1642543376011, [data-slick-id="1642543376011"] {
+      text-align: ;
+    }
+  }
+</style>
+
+
+  <div class="block-break"></div>
+
+<div
+  id="block-1642543376011"
+  class="
+  block-type--image
+  text-
+  col-2
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642543175262_blocks_1642543376011_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-none
+    "
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    
+
+<style>
+  #block-1642543376011 .block,
+  [data-slick-id="1642543376011"] .block {
+    display: flex;
+    justify-content: center;
+  }
+  #block-1642543376011 .image,
+  [data-slick-id="1642543376011"] .image {
+    width: 100%;
+    overflow: hidden;
+    
+      width: 200px;
+    
+    border-radius: 0px;
+    
+  }
+  #block-1642543376011 .image__image,
+  [data-slick-id="1642543376011"] .image__image {
+    width: 100%;
+    
+      width: 200px;
+    
+  }
+  #block-1642543376011 .image__overlay,
+  [data-slick-id="1642543376011"] .image__overlay {
+    
+      opacity: 0;
+    
+    background-color: #fff;
+    border-radius: 0px;
+    
+  }
+  
+  #block-1642543376011 .image__overlay-text,
+  [data-slick-id="1642543376011"] .image__overlay-text {
+    color:  !important;
+  }
+  @media (min-width: 768px) {
+    #block-1642543376011 .block,
+    [data-slick-id="1642543376011"] .block {
+        display: flex;
+        justify-content: center;
+    }
+    #block-1642543376011 .image__overlay,
+    [data-slick-id="1642543376011"] .image__overlay {
+      
+        opacity: 0;
+      
+    }
+    #block-1642543376011 .image__overlay:hover {
+      opacity: 1;
+    }
+  }
+  
+</style>
+
+<div class="image">
+  
+    
+        <img loading="auto" class="image__image" alt="" kjb-settings-id="sections_1642543175262_blocks_1642543376011_settings_image" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159529022/settings_images/d7256c4-5b5-8be6-685e-fa7a6ca2a34_70454d34-61bc-42e7-b584-3b197403165a.png" />
+    
+    
+  
+</div>
+
+  </div>
+</div>
+
+  <div class="block-break"></div>
+
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+  
+  /* margin settings */
+  #block-1642543175262_0, [data-slick-id="1642543175262_0"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1642543175262_0 .block, [data-slick-id="1642543175262_0"] .block {
+    /* border settings */
+    border: 0px none black;
+    border-radius: 0px;
+    
+
+    /* background color */
+    
+    /* default padding for mobile */
+    
+    
+    
+    /* mobile padding overrides */
+    
+    
+    
+    
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1642543175262_0, [data-slick-id="1642543175262_0"] {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1642543175262_0 .block, [data-slick-id="1642543175262_0"] .block {
+      /* default padding for desktop  */
+      
+      
+      /* desktop padding overrides */
+      
+      
+      
+      
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1642543175262_0, [data-slick-id="1642543175262_0"] {
+      text-align: center;
+    }
+  }
+</style>
+
+
+  <div class="block-break"></div>
+
+<div
+  id="block-1642543175262_0"
+  class="
+  block-type--text
+  text-center
+  col-9
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642543175262_blocks_1642543175262_0_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-none
+    "
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    <style>
+  
+  #block-1577982541036_0 .btn {
+    margin-top: 1rem;
+  }
+</style>
+
+
+  <h2><span style="color: #ffffff;">CÉLÉBRER - </span><span style="color: #ffffff;">RASSEMBLER </span></h2>
+<h4><span style="color: #ffffff;">DANSE + EXPÉRIENCE IMMERSIVE</span></h4>
+
+
+
+  </div>
+</div>
+
+  <div class="block-break"></div>
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div><div id="section-1642543710140" data-section-id="1642543710140"><style>
+  
+  #section-1642543710140 .section__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #4e1c5d;
+  }
+  #section-1642543710140 .sizer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #section-1642543710140 .container {
+    max-width: calc(1260px + 10px + 10px);
+    padding-right: 10px;
+    padding-left: 10px;
+    
+  }
+  #section-1642543710140 .row {
+    
+  }
+  #section-1642543710140 .container--full {
+    width: 100%;
+    max-width: calc(100% + 10px + 10px);
+  }
+  @media (min-width: 768px) {
+    
+    #section-1642543710140 .sizer {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    #section-1642543710140 .container {
+      max-width: calc(1260px + 40px + 40px);
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+    #section-1642543710140 .container--full {
+      max-width: calc(100% + 40px + 40px);
+    }
+  }
+  
+  
+</style>
+
+<section kjb-settings-id="sections_1642543710140_settings_background_color"
+  class="section
+  
+  
+   background-dark "
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds">
+  <div class="sizer ">
+    
+    <div class="section__overlay"></div>
+    <div class="container ">
+      <div class="row align-items-center justify-content-center">
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+  
+  /* margin settings */
+  #block-1759784206788, [data-slick-id="1759784206788"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1759784206788 .block, [data-slick-id="1759784206788"] .block {
+    /* border settings */
+    border: 4px  black;
+    border-radius: 4px;
+    
+
+    /* background color */
+    
+    /* default padding for mobile */
+    
+    
+      padding: 20px;
+    
+    
+      
+        padding: 20px;
+      
+    
+    /* mobile padding overrides */
+    
+    
+      padding-top: 30px;
+    
+    
+      padding-right: 20px;
+    
+    
+      padding-bottom: 30px;
+    
+    
+      padding-left: 20px;
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1759784206788, [data-slick-id="1759784206788"] {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1759784206788 .block, [data-slick-id="1759784206788"] .block {
+      /* default padding for desktop  */
+      
+      
+        
+          padding: 30px;
+        
+      
+      /* desktop padding overrides */
+      
+      
+        padding-top: 0px;
+      
+      
+        padding-right: 0px;
+      
+      
+        padding-bottom: 0px;
+      
+      
+        padding-left: 0px;
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1759784206788, [data-slick-id="1759784206788"] {
+      text-align: left;
+    }
+  }
+</style>
+
+
+<div
+  id="block-1759784206788"
+  class="
+  block-type--text
+  text-left
+  col-6
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642543710140_blocks_1759784206788_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-
+    "
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    <style>
+  
+  #block-1577982541036_0 .btn {
+    margin-top: 1rem;
+  }
+</style>
+
+
+  <h4 style="text-align: center;"><span style="color: #ffffff;"><strong>Danser et s'amuser, en ville, en nature, sans déranger!<br /></strong></span></h4>
+<hr />
+<p style="text-align: center;">Service de <strong>location d'équipement</strong> de silent disco<br />Service d'<strong>animation pour clients privés et municipaux</strong><br />Danses thématiques <strong>à des moments magiques &amp; lieux épiques</strong></p>
+
+
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div><div id="section-1759788601424" data-section-id="1759788601424"><style>
+  
+  #section-1759788601424 .section__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #ddc8c9;
+  }
+  #section-1759788601424 .sizer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #section-1759788601424 .container {
+    max-width: calc(1260px + 10px + 10px);
+    padding-right: 10px;
+    padding-left: 10px;
+    
+  }
+  #section-1759788601424 .row {
+    
+  }
+  #section-1759788601424 .container--full {
+    width: 100%;
+    max-width: calc(100% + 10px + 10px);
+  }
+  @media (min-width: 768px) {
+    
+    #section-1759788601424 .sizer {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    #section-1759788601424 .container {
+      max-width: calc(1260px + 40px + 40px);
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+    #section-1759788601424 .container--full {
+      max-width: calc(100% + 40px + 40px);
+    }
+  }
+  
+  
+</style>
+
+<section kjb-settings-id="sections_1759788601424_settings_background_color"
+  class="section
+  
+  
+   background-light "
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds">
+  <div class="sizer ">
+    
+    <div class="section__overlay"></div>
+    <div class="container ">
+      <div class="row align-items-center justify-content-center">
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div><div id="section-1642543855757" data-section-id="1642543855757"><style>
+  
+  #section-1642543855757 .section__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+  }
+  #section-1642543855757 .sizer {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  #section-1642543855757 .container {
+    max-width: calc(1260px + 0px + 0px);
+    padding-right: 0px;
+    padding-left: 0px;
+    
+  }
+  #section-1642543855757 .row {
+    
+  }
+  #section-1642543855757 .container--full {
+    width: 100%;
+    max-width: calc(100% + 0px + 0px);
+  }
+  @media (min-width: 768px) {
+    
+    #section-1642543855757 .sizer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    #section-1642543855757 .container {
+      max-width: calc(1260px + 40px + 40px);
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+    #section-1642543855757 .container--full {
+      max-width: calc(100% + 40px + 40px);
+    }
+  }
+  
+  
+</style>
+
+<section kjb-settings-id="sections_1642543855757_settings_background_color"
+  class="section
+  
+  
+   background-light "
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds">
+  <div class="sizer ">
+    
+    <div class="section__overlay"></div>
+    <div class="container ">
+      <div class="row align-items-center justify-content-around">
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+  
+  /* margin settings */
+  #block-1642543855757_0, [data-slick-id="1642543855757_0"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1642543855757_0 .block, [data-slick-id="1642543855757_0"] .block {
+    /* border settings */
+    border: 0px none black;
+    border-radius: 0px;
+    
+
+    /* background color */
+    
+    /* default padding for mobile */
+    
+    
+    
+    /* mobile padding overrides */
+    
+    
+    
+      padding-right: 20px;
+    
+    
+    
+      padding-left: 20px;
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1642543855757_0, [data-slick-id="1642543855757_0"] {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1642543855757_0 .block, [data-slick-id="1642543855757_0"] .block {
+      /* default padding for desktop  */
+      
+      
+      /* desktop padding overrides */
+      
+      
+      
+      
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1642543855757_0, [data-slick-id="1642543855757_0"] {
+      text-align: center;
+    }
+  }
+</style>
+
+
+<div
+  id="block-1642543855757_0"
+  class="
+  block-type--text
+  text-right
+  col-5
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642543855757_blocks_1642543855757_0_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-none
+    "
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    <style>
+  
+  #block-1577982541036_0 .btn {
+    margin-top: 1rem;
+  }
+</style>
+
+
+  <h3>Connecter. Célébrer. Contribuer.</h3>
+<p style="text-align: justify;"><br />La danse est la fusion créative du mouvement inspiré par les rythmes musicaux, l'inspiration par les lieux et par les gens. C'est une opportunité unique de connecter avec soi-même et les autres. </p>
+<p style="text-align: justify;"><br />Célébrez la vie grâce à cette expérience immersive de danse, qui rassemble les gens de tous âge, sans déranger les voisins.<br />Contribuez à la vie citoyenne avec nos événements de médiation sociale et environnementale.</p>
+
+
+
+  
+
+
+
+
+
+
+<style>
+  #block-1642543855757_0 .btn,
+  [data-slick-id="1642543855757_0"] .block .btn {
+    color: #ffffff;
+    border-color: #474747;
+    border-radius: 0px;
+    background-color: #474747;
+  }
+  #block-1642543855757_0 .btn--outline,
+  [data-slick-id="1642543855757_0"] .block .btn--outline {
+    background: transparent;
+    color: #474747;
+  }
+</style>
+
+<a class="btn btn--outline btn--medium btn--full" href="/contact"    kjb-settings-id="sections_1642543855757_blocks_1642543855757_0_settings_btn_background_color" role="button">
+  Réservez nos services d'animation
+</a>
+
+
+
+  </div>
+</div>
+
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+    #block-1642543915825, [data-slick-id="1642543915825"] { padding: 0; }
+  
+  
+  /* margin settings */
+  #block-1642543915825, [data-slick-id="1642543915825"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  #block-1642543915825 .block, [data-slick-id="1642543915825"] .block {
+    /* border settings */
+    border: 0px none black;
+    border-radius: 0px;
+    
+
+    /* background color */
+    
+    /* default padding for mobile */
+    
+    
+    
+    /* mobile padding overrides */
+    
+      padding: 0;
+    
+    
+    
+    
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1642543915825, [data-slick-id="1642543915825"] {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1642543915825 .block, [data-slick-id="1642543915825"] .block {
+      /* default padding for desktop  */
+      
+      
+      /* desktop padding overrides */
+      
+        padding: 0;
+      
+      
+      
+      
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1642543915825, [data-slick-id="1642543915825"] {
+      text-align: ;
+    }
+  }
+</style>
+
+
+<div
+  id="block-1642543915825"
+  class="
+  block-type--image
+  text-
+  col-5
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642543855757_blocks_1642543915825_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-none
+    "
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    
+
+<style>
+  #block-1642543915825 .block,
+  [data-slick-id="1642543915825"] .block {
+    display: flex;
+    justify-content: center;
+  }
+  #block-1642543915825 .image,
+  [data-slick-id="1642543915825"] .image {
+    width: 100%;
+    overflow: hidden;
+    
+    border-radius: 4px;
+    
+  }
+  #block-1642543915825 .image__image,
+  [data-slick-id="1642543915825"] .image__image {
+    width: 100%;
+    
+  }
+  #block-1642543915825 .image__overlay,
+  [data-slick-id="1642543915825"] .image__overlay {
+    
+      opacity: 0;
+    
+    background-color: #fff;
+    border-radius: 4px;
+    
+  }
+  
+  #block-1642543915825 .image__overlay-text,
+  [data-slick-id="1642543915825"] .image__overlay-text {
+    color:  !important;
+  }
+  @media (min-width: 768px) {
+    #block-1642543915825 .block,
+    [data-slick-id="1642543915825"] .block {
+        display: flex;
+        justify-content: flex-start;
+    }
+    #block-1642543915825 .image__overlay,
+    [data-slick-id="1642543915825"] .image__overlay {
+      
+        opacity: 0;
+      
+    }
+    #block-1642543915825 .image__overlay:hover {
+      opacity: 1;
+    }
+  }
+  
+    @media (max-width: 767px) {
+      #block-1642543915825 {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+      }
+    }
+  
+</style>
+
+<div class="image">
+  
+    
+        <img loading="auto" class="image__image" alt="" kjb-settings-id="sections_1642543855757_blocks_1642543915825_settings_image" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159529022/settings_images/5d1514-666-2d08-467b-baed7fecdfb2_Danse_couleurs.jpg" />
+    
+    
+  
+</div>
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div><div id="section-1642544046811" data-section-id="1642544046811"></div><div id="section-1642544115058" data-section-id="1642544115058"><style>
+  
+    #section-1642544115058 {
+      background-image: url(https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159529022/settings_images/c0bc1a2-16fe-f366-f163-780d124aa7_de7aa0a3-f6c9-445b-a34c-2c81495cb06e.jpeg);
+      background-position: bottom;
+    }
+  
+  #section-1642544115058 .section__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: ;
+  }
+  #section-1642544115058 .sizer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #section-1642544115058 .container {
+    max-width: calc(1260px + 10px + 10px);
+    padding-right: 10px;
+    padding-left: 10px;
+    
+  }
+  #section-1642544115058 .row {
+    
+  }
+  #section-1642544115058 .container--full {
+    width: 100%;
+    max-width: calc(100% + 10px + 10px);
+  }
+  @media (min-width: 768px) {
+    
+      #section-1642544115058 {
+        
+          background-attachment: fixed;
+        
+      }
+    
+    #section-1642544115058 .sizer {
+      padding-top: 500px;
+      padding-bottom: 100px;
+    }
+    #section-1642544115058 .container {
+      max-width: calc(1260px + 40px + 40px);
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+    #section-1642544115058 .container--full {
+      max-width: calc(100% + 40px + 40px);
+    }
+  }
+  
+    #section-1642544115058 .row {
+      -webkit-box-align: stretch !important;
+      -ms-flex-align: stretch !important;
+      align-items: stretch !important;
+    }
+  
+  
+</style>
+
+<section kjb-settings-id="sections_1642544115058_settings_background_color"
+  class="section
+  
+  
+   "
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds">
+  <div class="sizer ">
+    
+    <div class="section__overlay"></div>
+    <div class="container ">
+      <div class="row align-items-start justify-content-center">
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+    #block-1642544115058_0, [data-slick-id="1642544115058_0"] { padding: 0; }
+  
+  
+  /* margin settings */
+  #block-1642544115058_0, [data-slick-id="1642544115058_0"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1642544115058_0 .block, [data-slick-id="1642544115058_0"] .block {
+    /* border settings */
+    border: 0px none black;
+    border-radius: 0px;
+    
+
+    /* background color */
+    
+      background-color: #ffffff;
+    
+    /* default padding for mobile */
+    
+      padding: 20px;
+    
+    
+    
+    /* mobile padding overrides */
+    
+    
+      padding-top: 40px;
+    
+    
+      padding-right: 40px;
+    
+    
+    
+      padding-left: 40px;
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1642544115058_0, [data-slick-id="1642544115058_0"] {
+      margin-top: 00px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1642544115058_0 .block, [data-slick-id="1642544115058_0"] .block {
+      /* default padding for desktop  */
+      
+        padding: 30px;
+      
+      
+      /* desktop padding overrides */
+      
+      
+        padding-top: 80px;
+      
+      
+        padding-right: 40px;
+      
+      
+        padding-bottom: 70px;
+      
+      
+        padding-left: 80px;
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1642544115058_0, [data-slick-id="1642544115058_0"] {
+      text-align: left;
+    }
+  }
+</style>
+
+
+<div
+  id="block-1642544115058_0"
+  class="
+  block-type--text
+  text-left
+  col-4
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642544115058_blocks_1642544115058_0_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-none
+     background-light"
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    <style>
+  
+  #block-1577982541036_0 .btn {
+    margin-top: 1rem;
+  }
+</style>
+
+
+  <h6 style="margin-bottom: 20px;">Silence. On danse... </h6>
+<h4 style="margin-bottom: 20px;">Comment ça<br />fonctionne?</h4>
+
+
+
+  </div>
+</div>
+
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+    #block-1642544239820, [data-slick-id="1642544239820"] { padding: 0; }
+  
+  
+  /* margin settings */
+  #block-1642544239820, [data-slick-id="1642544239820"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1642544239820 .block, [data-slick-id="1642544239820"] .block {
+    /* border settings */
+    border: 0px none black;
+    border-radius: 0px;
+    
+
+    /* background color */
+    
+      background-color: #ffffff;
+    
+    /* default padding for mobile */
+    
+      padding: 20px;
+    
+    
+    
+    /* mobile padding overrides */
+    
+    
+      padding-top: 40px;
+    
+    
+      padding-right: 40px;
+    
+    
+      padding-bottom: 40px;
+    
+    
+      padding-left: 40px;
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1642544239820, [data-slick-id="1642544239820"] {
+      margin-top: -0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1642544239820 .block, [data-slick-id="1642544239820"] .block {
+      /* default padding for desktop  */
+      
+        padding: 30px;
+      
+      
+      /* desktop padding overrides */
+      
+      
+        padding-top: 80px;
+      
+      
+        padding-right: 80px;
+      
+      
+        padding-bottom: 70px;
+      
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1642544239820, [data-slick-id="1642544239820"] {
+      text-align: left;
+    }
+  }
+</style>
+
+
+<div
+  id="block-1642544239820"
+  class="
+  block-type--text
+  text-left
+  col-6
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642544115058_blocks_1642544239820_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-none
+     background-light"
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    <style>
+  
+  #block-1577982541036_0 .btn {
+    margin-top: 1rem;
+  }
+</style>
+
+
+  <h5 style="margin-bottom: 20px;">Technologie FM simple, longue portée, longue durée. </h5>
+<p> </p>
+<p>Cette technologie simple utilise des émetteurs programmés sur trois fréquences de la bande FM. Les casques reçoivent une des fréquence au choix, pour une possibilité de 3 différente bande sonores par événement. <br />Ça permet d'avoir de la musique calme, de la musique rythmée, et un canal pour les enfants dans le même événement. <br />Le casque a une lumière de couleur différente pour chaque canal - rouge, bleu et vert. </p>
+
+
+
+  
+
+
+
+
+
+
+<style>
+  #block-1642544239820 .btn,
+  [data-slick-id="1642544239820"] .block .btn {
+    color: #ffffff;
+    border-color: #575757;
+    border-radius: 0px;
+    background-color: #575757;
+  }
+  #block-1642544239820 .btn--outline,
+  [data-slick-id="1642544239820"] .block .btn--outline {
+    background: transparent;
+    color: #575757;
+  }
+</style>
+
+<a class="btn btn--outline btn--medium btn--auto" href="/fiche-technique"    kjb-settings-id="sections_1642544115058_blocks_1642544239820_settings_btn_background_color" role="button">
+  VOIR LA DOCUMENTATION
+</a>
+
+
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div><div id="section-1759788585596" data-section-id="1759788585596"><style>
+  
+  #section-1759788585596 .section__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #ddc8c9;
+  }
+  #section-1759788585596 .sizer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #section-1759788585596 .container {
+    max-width: calc(1260px + 10px + 10px);
+    padding-right: 10px;
+    padding-left: 10px;
+    
+  }
+  #section-1759788585596 .row {
+    
+  }
+  #section-1759788585596 .container--full {
+    width: 100%;
+    max-width: calc(100% + 10px + 10px);
+  }
+  @media (min-width: 768px) {
+    
+    #section-1759788585596 .sizer {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    #section-1759788585596 .container {
+      max-width: calc(1260px + 40px + 40px);
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+    #section-1759788585596 .container--full {
+      max-width: calc(100% + 40px + 40px);
+    }
+  }
+  
+  
+</style>
+
+<section kjb-settings-id="sections_1759788585596_settings_background_color"
+  class="section
+  
+  
+   background-light "
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds">
+  <div class="sizer ">
+    
+    <div class="section__overlay"></div>
+    <div class="container ">
+      <div class="row align-items-center justify-content-center">
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div><div id="section-1642544317343" data-section-id="1642544317343"><style>
+  
+  #section-1642544317343 .section__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(78, 28, 93, 0.98);
+  }
+  #section-1642544317343 .sizer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #section-1642544317343 .container {
+    max-width: calc(1260px + 10px + 10px);
+    padding-right: 10px;
+    padding-left: 10px;
+    
+  }
+  #section-1642544317343 .row {
+    
+  }
+  #section-1642544317343 .container--full {
+    width: 100%;
+    max-width: calc(100% + 10px + 10px);
+  }
+  @media (min-width: 768px) {
+    
+    #section-1642544317343 .sizer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    #section-1642544317343 .container {
+      max-width: calc(1260px + 40px + 40px);
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+    #section-1642544317343 .container--full {
+      max-width: calc(100% + 40px + 40px);
+    }
+  }
+  
+  
+</style>
+
+<section kjb-settings-id="sections_1642544317343_settings_background_color"
+  class="section
+  
+  
+   background-dark "
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds">
+  <div class="sizer ">
+    
+    <div class="section__overlay"></div>
+    <div class="container ">
+      <div class="row align-items-start justify-content-center">
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+  
+  /* margin settings */
+  #block-1642544317343_0, [data-slick-id="1642544317343_0"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1642544317343_0 .block, [data-slick-id="1642544317343_0"] .block {
+    /* border settings */
+    border: 4px none black;
+    border-radius: 4px;
+    
+
+    /* background color */
+    
+      background-color: #ffffff;
+    
+    /* default padding for mobile */
+    
+      padding: 20px;
+    
+    
+    
+    /* mobile padding overrides */
+    
+    
+    
+    
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1642544317343_0, [data-slick-id="1642544317343_0"] {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1642544317343_0 .block, [data-slick-id="1642544317343_0"] .block {
+      /* default padding for desktop  */
+      
+        padding: 30px;
+      
+      
+      /* desktop padding overrides */
+      
+      
+      
+        padding-right: 60px;
+      
+      
+      
+        padding-left: 60px;
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1642544317343_0, [data-slick-id="1642544317343_0"] {
+      text-align: left;
+    }
+  }
+</style>
+
+
+<div
+  id="block-1642544317343_0"
+  class="
+  block-type--text
+  text-right
+  col-6
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642544317343_blocks_1642544317343_0_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-none
+     background-light"
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    <style>
+  
+  #block-1577982541036_0 .btn {
+    margin-top: 1rem;
+  }
+</style>
+
+
+  <p style="font-size: 24px;">"Étant DJ et aimant la Bass, je doutais du concept d'une silent disco. J'ai essayé et j'ai adoré comment ça permet d'aller dans sa bulle tout en connectant encore avec les autres danseurs."</p>
+<h6> </h6>
+<h6>— DJ Eoka</h6>
+
+
+
+  </div>
+</div>
+
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+  
+  /* margin settings */
+  #block-1642544390300, [data-slick-id="1642544390300"] {
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1642544390300 .block, [data-slick-id="1642544390300"] .block {
+    /* border settings */
+    border: 4px none black;
+    border-radius: 4px;
+    
+
+    /* background color */
+    
+      background-color: #ffffff;
+    
+    /* default padding for mobile */
+    
+      padding: 20px;
+    
+    
+    
+    /* mobile padding overrides */
+    
+    
+    
+    
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1642544390300, [data-slick-id="1642544390300"] {
+      margin-top: 180px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1642544390300 .block, [data-slick-id="1642544390300"] .block {
+      /* default padding for desktop  */
+      
+        padding: 30px;
+      
+      
+      /* desktop padding overrides */
+      
+      
+      
+        padding-right: 40px;
+      
+      
+      
+        padding-left: 60px;
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1642544390300, [data-slick-id="1642544390300"] {
+      text-align: left;
+    }
+  }
+</style>
+
+
+<div
+  id="block-1642544390300"
+  class="
+  block-type--text
+  text-left
+  col-6
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642544317343_blocks_1642544390300_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-none
+     background-light"
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    <style>
+  
+  #block-1577982541036_0 .btn {
+    margin-top: 1rem;
+  }
+</style>
+
+
+  <p style="font-size: 24px;">"Enfin un concept qui permet de danser et s'amuser, tout en permettant aux gens de simplement enlever le casque d'écoute pour discuter s'ils en ont envie."</p>
+<h6> </h6>
+<h6>— Marie-Christine Tremblay</h6>
+
+
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div><div id="section-1642544478654" data-section-id="1642544478654"></div><div id="section-1759788564785" data-section-id="1759788564785"><style>
+  
+  #section-1759788564785 .section__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #ddc8c9;
+  }
+  #section-1759788564785 .sizer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #section-1759788564785 .container {
+    max-width: calc(1260px + 10px + 10px);
+    padding-right: 10px;
+    padding-left: 10px;
+    
+  }
+  #section-1759788564785 .row {
+    
+  }
+  #section-1759788564785 .container--full {
+    width: 100%;
+    max-width: calc(100% + 10px + 10px);
+  }
+  @media (min-width: 768px) {
+    
+    #section-1759788564785 .sizer {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    #section-1759788564785 .container {
+      max-width: calc(1260px + 40px + 40px);
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+    #section-1759788564785 .container--full {
+      max-width: calc(100% + 40px + 40px);
+    }
+  }
+  
+  
+</style>
+
+<section kjb-settings-id="sections_1759788564785_settings_background_color"
+  class="section
+  
+  
+   background-light "
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds">
+  <div class="sizer ">
+    
+    <div class="section__overlay"></div>
+    <div class="container ">
+      <div class="row align-items-center justify-content-center">
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div><div id="section-1642544587855" data-section-id="1642544587855"><style>
+  
+    #section-1642544587855 {
+      background-image: url(https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159529022/settings_images/bd67a58-b7d4-5a0c-1d3f-b28d200871ed_339921180_640344921262753_5718454259187498750_n_1_.jpg);
+      background-position: center;
+    }
+  
+  #section-1642544587855 .section__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+  }
+  #section-1642544587855 .sizer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  #section-1642544587855 .container {
+    max-width: calc(1260px + 10px + 10px);
+    padding-right: 10px;
+    padding-left: 10px;
+    
+  }
+  #section-1642544587855 .row {
+    
+  }
+  #section-1642544587855 .container--full {
+    width: 100%;
+    max-width: calc(100% + 10px + 10px);
+  }
+  @media (min-width: 768px) {
+    
+      #section-1642544587855 {
+        
+          background-attachment: fixed;
+        
+      }
+    
+    #section-1642544587855 .sizer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    #section-1642544587855 .container {
+      max-width: calc(1260px + 40px + 40px);
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+    #section-1642544587855 .container--full {
+      max-width: calc(100% + 40px + 40px);
+    }
+  }
+  
+  
+</style>
+
+<section kjb-settings-id="sections_1642544587855_settings_background_color"
+  class="section
+  
+  
+   background-dark "
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds">
+  <div class="sizer ">
+    
+    <div class="section__overlay"></div>
+    <div class="container ">
+      <div class="row align-items-start justify-content-around">
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+  
+  /* margin settings */
+  #block-1642544587855_0, [data-slick-id="1642544587855_0"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1642544587855_0 .block, [data-slick-id="1642544587855_0"] .block {
+    /* border settings */
+    border: 0px none black;
+    border-radius: 0px;
+    
+
+    /* background color */
+    
+    /* default padding for mobile */
+    
+    
+    
+    /* mobile padding overrides */
+    
+    
+    
+    
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1642544587855_0, [data-slick-id="1642544587855_0"] {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1642544587855_0 .block, [data-slick-id="1642544587855_0"] .block {
+      /* default padding for desktop  */
+      
+      
+      /* desktop padding overrides */
+      
+      
+      
+      
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1642544587855_0, [data-slick-id="1642544587855_0"] {
+      text-align: left;
+    }
+  }
+</style>
+
+
+  <div class="block-break"></div>
+
+<div
+  id="block-1642544587855_0"
+  class="
+  block-type--text
+  text-left
+  col-12
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642544587855_blocks_1642544587855_0_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-none
+    "
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    <style>
+  
+  #block-1577982541036_0 .btn {
+    margin-top: 1rem;
+  }
+</style>
+
+
+  <h2 style="margin-bottom: 20px; text-align: center;">Nos services événementiels</h2>
+
+
+
+  </div>
+</div>
+
+  <div class="block-break"></div>
+
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+  
+  /* margin settings */
+  #block-1759786960083, [data-slick-id="1759786960083"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1759786960083 .block, [data-slick-id="1759786960083"] .block {
+    /* border settings */
+    border: 4px none #8e44ad;
+    border-radius: 4px;
+    
+
+    /* background color */
+    
+      background-color: #ffffff;
+    
+    /* default padding for mobile */
+    
+      padding: 20px;
+    
+    
+    
+      
+        padding: 20px;
+      
+    
+    /* mobile padding overrides */
+    
+    
+      padding-top: 20px;
+    
+    
+      padding-right: 20px;
+    
+    
+      padding-bottom: 20px;
+    
+    
+      padding-left: 20px;
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1759786960083, [data-slick-id="1759786960083"] {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1759786960083 .block, [data-slick-id="1759786960083"] .block {
+      /* default padding for desktop  */
+      
+        padding: 30px;
+      
+      
+        
+          padding: 30px;
+        
+      
+      /* desktop padding overrides */
+      
+      
+        padding-top: 20px;
+      
+      
+        padding-right: 030px;
+      
+      
+        padding-bottom: 20px;
+      
+      
+        padding-left: 30px;
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1759786960083, [data-slick-id="1759786960083"] {
+      text-align: center;
+    }
+  }
+</style>
+
+
+<div
+  id="block-1759786960083"
+  class="
+  block-type--feature
+  text-center
+  col-4
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642544587855_blocks_1759786960083_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-large
+     background-light"
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    
+<style>
+  #block-1759786960083 .feature__image,
+  [data-slick-id="1759786960083"] .feature__image {
+    width: 300px;
+    border-radius: 4px;
+  }
+  
+</style>
+<div class="feature">
+  
+    
+      <img loading="auto" class="feature__image" alt="" kjb-settings-id="sections_1642544587855_blocks_1759786960083_settings_image" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159529022/settings_images/c1bf312-2464-4e2d-d85d-3f22cad1aee5_ecf089e9-075d-41d5-95b9-56cfd67967b7.jpg" />
+    
+  
+  <div 
+    class="feature__text" 
+    kjb-settings-id="sections_1642544587855_blocks_1759786960083_settings_text" 
+    
+  >
+    <h4>Location d'équipement</h4>
+<p>Informations + réservation</p>
+  </div>
+  
+    
+
+
+
+
+
+
+<style>
+  #block-1759786960083 .btn,
+  [data-slick-id="1759786960083"] .block .btn {
+    color: #ffffff;
+    border-color: #575757;
+    border-radius: 0px;
+    background-color: #575757;
+  }
+  #block-1759786960083 .btn--outline,
+  [data-slick-id="1759786960083"] .block .btn--outline {
+    background: transparent;
+    color: #575757;
+  }
+</style>
+
+<a class="btn btn--outline btn--small btn--full" href="/fiche-technique"    kjb-settings-id="sections_1642544587855_blocks_1759786960083_settings_btn_background_color" role="button">
+  EN SAVOIR PLUS
+</a>
+
+
+  
+</div>
+  </div>
+</div>
+
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+  
+  /* margin settings */
+  #block-1759788062450, [data-slick-id="1759788062450"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1759788062450 .block, [data-slick-id="1759788062450"] .block {
+    /* border settings */
+    border: 4px none #8e44ad;
+    border-radius: 4px;
+    
+
+    /* background color */
+    
+      background-color: #ffffff;
+    
+    /* default padding for mobile */
+    
+      padding: 20px;
+    
+    
+    
+      
+        padding: 20px;
+      
+    
+    /* mobile padding overrides */
+    
+    
+      padding-top: 20px;
+    
+    
+      padding-right: 20px;
+    
+    
+      padding-bottom: 20px;
+    
+    
+      padding-left: 20px;
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1759788062450, [data-slick-id="1759788062450"] {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1759788062450 .block, [data-slick-id="1759788062450"] .block {
+      /* default padding for desktop  */
+      
+        padding: 30px;
+      
+      
+        
+          padding: 30px;
+        
+      
+      /* desktop padding overrides */
+      
+      
+        padding-top: 20px;
+      
+      
+        padding-right: 030px;
+      
+      
+        padding-bottom: 20px;
+      
+      
+        padding-left: 30px;
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1759788062450, [data-slick-id="1759788062450"] {
+      text-align: center;
+    }
+  }
+</style>
+
+
+<div
+  id="block-1759788062450"
+  class="
+  block-type--feature
+  text-center
+  col-4
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642544587855_blocks_1759788062450_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-large
+     background-light"
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    
+<style>
+  #block-1759788062450 .feature__image,
+  [data-slick-id="1759788062450"] .feature__image {
+    width: 300px;
+    border-radius: 4px;
+  }
+  
+</style>
+<div class="feature">
+  
+    
+      <img loading="auto" class="feature__image" alt="" kjb-settings-id="sections_1642544587855_blocks_1759788062450_settings_image" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159529022/settings_images/6646642-e61d-bd56-2d85-f248ad2efe6_cae76632-0258-400b-b1e7-ecbae0be5242.jpg" />
+    
+  
+  <div 
+    class="feature__text" 
+    kjb-settings-id="sections_1642544587855_blocks_1759788062450_settings_text" 
+    
+  >
+    <h4>Événement à la carte</h4>
+<p><a href="https://app.kajabi.com/courses">Contactez-nous </a></p>
+  </div>
+  
+    
+
+
+
+
+
+
+<style>
+  #block-1759788062450 .btn,
+  [data-slick-id="1759788062450"] .block .btn {
+    color: #ffffff;
+    border-color: #575757;
+    border-radius: 0px;
+    background-color: #575757;
+  }
+  #block-1759788062450 .btn--outline,
+  [data-slick-id="1759788062450"] .block .btn--outline {
+    background: transparent;
+    color: #575757;
+  }
+</style>
+
+<a class="btn btn--outline btn--small btn--full" href="/contact"    kjb-settings-id="sections_1642544587855_blocks_1759788062450_settings_btn_background_color" role="button">
+  NOUS CONTACTER
+</a>
+
+
+  
+</div>
+  </div>
+</div>
+
+        
+          
+
+
+
+
+<style>
+  /* flush setting */
+  
+  
+  /* margin settings */
+  #block-1759788066550, [data-slick-id="1759788066550"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1759788066550 .block, [data-slick-id="1759788066550"] .block {
+    /* border settings */
+    border: 4px none #8e44ad;
+    border-radius: 4px;
+    
+
+    /* background color */
+    
+      background-color: #ffffff;
+    
+    /* default padding for mobile */
+    
+      padding: 20px;
+    
+    
+    
+      
+        padding: 20px;
+      
+    
+    /* mobile padding overrides */
+    
+    
+      padding-top: 20px;
+    
+    
+      padding-right: 20px;
+    
+    
+      padding-bottom: 20px;
+    
+    
+      padding-left: 20px;
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1759788066550, [data-slick-id="1759788066550"] {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1759788066550 .block, [data-slick-id="1759788066550"] .block {
+      /* default padding for desktop  */
+      
+        padding: 30px;
+      
+      
+        
+          padding: 30px;
+        
+      
+      /* desktop padding overrides */
+      
+      
+        padding-top: 20px;
+      
+      
+        padding-right: 030px;
+      
+      
+        padding-bottom: 20px;
+      
+      
+        padding-left: 30px;
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1759788066550, [data-slick-id="1759788066550"] {
+      text-align: center;
+    }
+  }
+</style>
+
+
+<div
+  id="block-1759788066550"
+  class="
+  block-type--feature
+  text-center
+  col-4
+  
+  
+  
+    
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds"
+  
+    kjb-settings-id="sections_1642544587855_blocks_1759788066550_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-large
+     background-light"
+    
+      data-aos="none"
+      data-aos-delay="0"
+      data-aos-duration="0"
+    
+    
+  >
+    
+    
+<style>
+  #block-1759788066550 .feature__image,
+  [data-slick-id="1759788066550"] .feature__image {
+    width: 300px;
+    border-radius: 4px;
+  }
+  
+</style>
+<div class="feature">
+  
+    
+      <img loading="auto" class="feature__image" alt="" kjb-settings-id="sections_1642544587855_blocks_1759788066550_settings_image" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159529022/settings_images/cc3203e-223-785c-b2-44620024755_b2b9d724-f7df-43fc-8de3-02f79f612356.jpg" />
+    
+  
+  <div 
+    class="feature__text" 
+    kjb-settings-id="sections_1642544587855_blocks_1759788066550_settings_text" 
+    
+  >
+    <h4>Nos danses épiques</h4>
+<p><a href="https://app.kajabi.com/admin/themes/2159529022/settings/www.facebook.com">Dans des lieux magiques...</a></p>
+  </div>
+  
+    
+
+
+
+
+
+
+<style>
+  #block-1759788066550 .btn,
+  [data-slick-id="1759788066550"] .block .btn {
+    color: #ffffff;
+    border-color: #575757;
+    border-radius: 0px;
+    background-color: #575757;
+  }
+  #block-1759788066550 .btn--outline,
+  [data-slick-id="1759788066550"] .block .btn--outline {
+    background: transparent;
+    color: #575757;
+  }
+</style>
+
+<a class="btn btn--outline btn--small btn--full" href="https://www.facebook.com/silenceondanse"    target="_blank" rel="noopener"  kjb-settings-id="sections_1642544587855_blocks_1759788066550_settings_btn_background_color" role="button">
+  EN SAVOIR PLUS
+</a>
+
+
+  
+</div>
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div><div id="section-1759788443906" data-section-id="1759788443906"><style>
+  
+  #section-1759788443906 .section__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #ddc8c9;
+  }
+  #section-1759788443906 .sizer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #section-1759788443906 .container {
+    max-width: calc(1260px + 10px + 10px);
+    padding-right: 10px;
+    padding-left: 10px;
+    
+  }
+  #section-1759788443906 .row {
+    
+  }
+  #section-1759788443906 .container--full {
+    width: 100%;
+    max-width: calc(100% + 10px + 10px);
+  }
+  @media (min-width: 768px) {
+    
+    #section-1759788443906 .sizer {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    #section-1759788443906 .container {
+      max-width: calc(1260px + 40px + 40px);
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+    #section-1759788443906 .container--full {
+      max-width: calc(100% + 40px + 40px);
+    }
+  }
+  
+  
+</style>
+
+<section kjb-settings-id="sections_1759788443906_settings_background_color"
+  class="section
+  
+  
+   background-light "
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units="seconds">
+  <div class="sizer ">
+    
+    <div class="section__overlay"></div>
+    <div class="container ">
+      <div class="row align-items-center justify-content-center">
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div></div>
+    </main>
+    <div id="section-footer" data-section-id="footer">
+  <style>
+    #section-footer {
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .footer {
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+    }
+  </style>
+
+<style>
+  .footer {
+    background-color: #4e1c5d;
+  }
+  .footer, .footer__block {
+    font-size: 14px;
+    color: ;
+  }
+  .footer .logo__text {
+    color: ;
+  }
+  .footer .link-list__links {
+    width: 100%;
+  }
+  .footer a.link-list__link {
+    color: ;
+  }
+  .footer .link-list__link:hover {
+    color: ;
+  }
+  .copyright {
+    color: ;
+  }
+  @media (min-width: 768px) {
+    .footer, .footer__block {
+      font-size: 14px;
+    }
+  }
+  .powered-by a {
+    color: #898989 !important;
+  }
+  
+    .powered-by {
+      text-align: center;
+      padding-top: 0;
+    }
+  
+</style>
+
+<footer class="footer footer--stacked  background-dark  " kjb-settings-id="sections_footer_settings_background_color">
+  <div class="footer__content">
+    <div class="container footer__container media">
+      
+        
+            <div 
+  id="block-1607561009889" 
+  class="footer__block "
+  
+>
+  <style>
+  .social-icons--1607561009889 .social-icons__icons {
+    justify-content: 
+  }
+  .social-icons--1607561009889 .social-icons__icon {
+    color:  !important;
+  }
+  .social-icons--1607561009889.social-icons--round .social-icons__icon {
+    background-color: #474747;
+  }
+  .social-icons--1607561009889.social-icons--square .social-icons__icon {
+    background-color: #474747;
+  }
+  
+    
+  
+  @media (min-width: 768px) {
+    .social-icons--1607561009889 .social-icons__icons {
+      justify-content: 
+    }
+  }
+</style>
+<div class="social-icons social-icons-- social-icons--1607561009889" kjb-settings-id="sections_footer_blocks_1607561009889_settings_social_icons_text_color">
+  <div class="social-icons__icons">
+    
+  <a class="social-icons__icon social-icons__icon--" href="https://www.facebook.com/kajabi"  kjb-settings-id="sections_footer_blocks_1607561009889_settings_social_icon_link_facebook">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+
+
+  <a class="social-icons__icon social-icons__icon--" href="https://www.twitter.com/kajabi"  kjb-settings-id="sections_footer_blocks_1607561009889_settings_social_icon_link_twitter">
+    <i class="fab fa-twitter"></i>
+  </a>
+
+
+  <a class="social-icons__icon social-icons__icon--" href="https://www.instagram.com/kajabi"  kjb-settings-id="sections_footer_blocks_1607561009889_settings_social_icon_link_instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+</div>
+        
+      
+        
+            <div 
+  id="block-1555988525205" 
+  class="footer__block "
+  
+>
+  <span class="copyright" kjb-settings-id="sections_footer_blocks_1555988525205_settings_copyright" role="presentation">
+  &copy; 2026 Silence. On danse ! 2025
+</span>
+</div>
+          
+      
+    </div>
+    
+  </div>
+
+</footer>
+
+</div>
+    <div id="section-exit_pop" data-section-id="exit_pop"><style>
+  #exit-pop .modal__content {
+    background: ;
+  }
+  
+</style>
+
+
+
+
+
+
+</div>
+    <div id="section-two_step" data-section-id="two_step"><style>
+  #two-step .modal__content {
+    background: ;
+  }
+  
+</style>
+
+<div class="modal two-step" id="two-step" kjb-settings-id="sections_two_step_settings_two_step_edit">
+  <div class="modal__content background-unrecognized">
+    <div class="close-x">
+      <div class="close-x__part"></div>
+      <div class="close-x__part"></div>
+    </div>
+    <div class="modal__body row text- align-items-start justify-content-left">
+      
+         
+              
+
+
+
+
+<style>
+  /* flush setting */
+  
+  
+  /* margin settings */
+  #block-1585757540189, [data-slick-id="1585757540189"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1585757540189 .block, [data-slick-id="1585757540189"] .block {
+    /* border settings */
+    border: 4px none black;
+    border-radius: 4px;
+    
+
+    /* background color */
+    
+    /* default padding for mobile */
+    
+    
+    
+    /* mobile padding overrides */
+    
+      padding: 0;
+    
+    
+    
+    
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1585757540189, [data-slick-id="1585757540189"] {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1585757540189 .block, [data-slick-id="1585757540189"] .block {
+      /* default padding for desktop  */
+      
+      
+      /* desktop padding overrides */
+      
+        padding: 0;
+      
+      
+      
+      
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1585757540189, [data-slick-id="1585757540189"] {
+      text-align: ;
+    }
+  }
+</style>
+
+
+<div
+  id="block-1585757540189"
+  class="
+  block-type--image
+  text-
+  col-12
+  
+  
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units=""
+  
+    kjb-settings-id="sections_two_step_blocks_1585757540189_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-none
+    "
+    
+      data-aos="-"
+      data-aos-delay=""
+      data-aos-duration=""
+    
+    
+  >
+    
+    
+
+<style>
+  #block-1585757540189 .block,
+  [data-slick-id="1585757540189"] .block {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #block-1585757540189 .image,
+  [data-slick-id="1585757540189"] .image {
+    width: 100%;
+    overflow: hidden;
+    
+    border-radius: 4px;
+    
+  }
+  #block-1585757540189 .image__image,
+  [data-slick-id="1585757540189"] .image__image {
+    width: 100%;
+    
+  }
+  #block-1585757540189 .image__overlay,
+  [data-slick-id="1585757540189"] .image__overlay {
+    
+      opacity: 0;
+    
+    background-color: #fff;
+    border-radius: 4px;
+    
+  }
+  
+  #block-1585757540189 .image__overlay-text,
+  [data-slick-id="1585757540189"] .image__overlay-text {
+    color:  !important;
+  }
+  @media (min-width: 768px) {
+    #block-1585757540189 .block,
+    [data-slick-id="1585757540189"] .block {
+        display: flex;
+        justify-content: flex-start;
+    }
+    #block-1585757540189 .image__overlay,
+    [data-slick-id="1585757540189"] .image__overlay {
+      
+        opacity: 0;
+      
+    }
+    #block-1585757540189 .image__overlay:hover {
+      opacity: 1;
+    }
+  }
+  
+</style>
+
+<div class="image">
+  
+    
+        <img loading="auto" class="image__image" alt="" kjb-settings-id="sections_two_step_blocks_1585757540189_settings_image" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2159529022/assets/placeholder.png?17628095866517031" />
+    
+    
+  
+</div>
+
+  </div>
+</div>
+
+            
+      
+         
+              
+
+
+
+
+<style>
+  /* flush setting */
+  
+  
+  /* margin settings */
+  #block-1585757543890, [data-slick-id="1585757543890"] {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #block-1585757543890 .block, [data-slick-id="1585757543890"] .block {
+    /* border settings */
+    border: 4px none black;
+    border-radius: 4px;
+    
+
+    /* background color */
+    
+    /* default padding for mobile */
+    
+    
+    
+    /* mobile padding overrides */
+    
+    
+    
+    
+    
+  }
+
+  @media (min-width: 768px) {
+    /* desktop margin settings */
+    #block-1585757543890, [data-slick-id="1585757543890"] {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+    #block-1585757543890 .block, [data-slick-id="1585757543890"] .block {
+      /* default padding for desktop  */
+      
+      
+      /* desktop padding overrides */
+      
+      
+      
+      
+      
+    }
+  }
+  /* mobile text align */
+  @media (max-width: 767px) {
+    #block-1585757543890, [data-slick-id="1585757543890"] {
+      text-align: center;
+    }
+  }
+</style>
+
+
+<div
+  id="block-1585757543890"
+  class="
+  block-type--form
+  text-center
+  col-12
+  
+  
+  
+  
+  "
+  
+  data-reveal-event=""
+  data-reveal-offset=""
+  data-reveal-units=""
+  
+    kjb-settings-id="sections_two_step_blocks_1585757543890_settings_width"
+  
+  
+>
+  <div class="block
+    box-shadow-none
+    "
+    
+      data-aos="-"
+      data-aos-delay=""
+      data-aos-duration=""
+    
+    
+  >
+    
+    
+
+
+
+
+
+
+
+
+<style>
+  #block-1585757543890 .form-btn {
+    border-color: #474747;
+    border-radius: 0px;
+    background: #474747;
+    color: #ffffff;
+  }
+  #block-1585757543890 .btn--outline {
+    color: #474747;
+    background: transparent;
+  }
+  #block-1585757543890 .disclaimer-text {
+    font-size: 16px;
+    margin-top: 1.25rem;
+    margin-bottom: 0;
+    color: #888;
+  }
+</style>
+
+
+
+<div class="form">
+  <div
+    kjb-settings-id="sections_two_step_blocks_1585757543890_settings_text"
+    
+  >
+    <h4>Join Our Free Trial</h4>
+<p>Get started today before this once in a lifetime opportunity expires.</p>
+  </div>
+  
+    
+  
+</div>
+  </div>
+</div>
+
+          
+      
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+    <!-- Javascripts ======================================================= -->
+<script src="https://kajabi-app-assets.kajabi-cdn.com/assets/encore_core-9ce78559ea26ee857d48a83ffa8868fa1d6e0743c6da46efe11250e7119cfb8d.js"></script>
+<script src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2159529022/assets/scripts.js?17628095866517031"></script>
+
+
+
+<!-- Customer JS ======================================================= -->
+<script>
+  /* Custom JS Added Via Theme Settings */
+  /* Javascript code goes here */
+</script>
+  </body>
+</html>

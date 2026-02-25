@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Réservation | Silence. On danse ! - Organisez votre Silent Disco</title>
+    <meta name="description"
+        content="Prêt à organiser une soirée inoubliable ? Contactez-nous pour réserver nos services de silent disco everywhere au Québec.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.silenceondanse.ca/contact">
+    <meta property="og:title" content="Contact & Réservation | Silence. On danse ! - Organisez votre Silent Disco">
+    <meta property="og:description"
+        content="Envoyez-nous un message pour obtenir une soumission personnalisée pour votre événement.">
+    <meta property="og:image" content="https://www.silenceondanse.ca/assets/images/contact-portrait.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <nav class="nav-left">
+                <ul>
+                    <li><a href="services.html">NOS SERVICES</a></li>
+                    <li><a href="notrehistoire.html">NOTRE HISTOIRE</a></li>
+                    <li><a href="fiche-technique.html">FICHE TECHNIQUE</a></li>
+                </ul>
+            </nav>
+
+            <div class="logo">
+                <a href="index.html">
+                    Silence. On danse!
+                </a>
+            </div>
+
+            <nav class="nav-right">
+                <ul>
+                    <li><a href="photos.html">PHOTOTHÈQUE</a></li>
+                    <li><a href="contact.html" class="btn-outline-small">RÉSERVER NOS SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact-form-section">
+        <div class="container">
+            <div class="contact-card">
+                <!-- Left Image & Phone -->
+                <div class="contact-image-side reveal fade-left"
+                    style="background-image: url('assets/images/contact-portrait.jpg');">
+                    <div class="contact-image-overlay">
+                        <p style="color: white; font-size: 1rem; opacity: 0.9; margin-bottom: 0.4rem;">
+                            Des questions rapides ?</p>
+                        <p style="color: white; font-size: 1.05rem; font-weight: bold; margin: 0;">Textez Alex au</p>
+                        <p
+                            style="color: var(--color-primary-light); font-size: 2rem; font-weight: 900; margin: 0.25rem 0 0; text-shadow: 0 2px 10px rgba(0,0,0,0.4);">
+                            250-644-0742</p>
+                    </div>
+                </div>
+
+                <!-- Right Form -->
+                <div class="contact-form-side reveal fade-right">
+                    <h1
+                        style="font-size: 2rem; color: var(--color-bg-dark); margin-bottom: 6px; letter-spacing: -0.5px;">
+                        Prêt à danser ?</h1>
+                    <p style="color: var(--color-text-muted); margin-bottom: 1.75rem; font-size: 0.95rem;">Réservez nos
+                        services ou posez vos questions.</p>
+
+                    <!-- Success message (hidden by default) -->
+                    <div id="form-success"
+                        style="display:none; background: #e8f5e9; border: 1px solid #4caf50; border-radius: var(--radius-md); padding: 1.25rem 1.5rem; margin-bottom: 1.5rem;">
+                        <p style="color: #2e7d32; font-weight: 700; margin: 0 0 4px;">Message envoyé ! ✓</p>
+                        <p style="color: #388e3c; font-size: 0.9rem; margin: 0;">Nous vous répondrons dans les plus
+                            brefs délais.</p>
+                    </div>
+
+                    <!-- Error message (hidden by default) -->
+                    <div id="form-error"
+                        style="display:none; background: #fce4ec; border: 1px solid #e91e63; border-radius: var(--radius-md); padding: 1.25rem 1.5rem; margin-bottom: 1.5rem;">
+                        <p style="color: #c62828; font-weight: 700; margin: 0 0 4px;">Erreur d'envoi</p>
+                        <p style="color: #b71c1c; font-size: 0.9rem; margin: 0;">Veuillez réessayer ou nous contacter
+                            directement.</p>
+                    </div>
+
+                    <!--
+                        NETLIFY FORMS — sends email to infosilenceondanse@gmail.com
+                        After deploying to Netlify:
+                        1. Go to Site Settings → Forms → Form notifications
+                        2. Add email notification to: infosilenceondanse@gmail.com
+                        3. Test the form live on Netlify to confirm delivery
+                    -->
+                    <form id="contact-form" name="contact" method="POST" data-netlify="true"
+                        netlify-honeypot="bot-field" style="display: flex; flex-direction: column; gap: 1.1rem;">
+
+                        <!-- Hidden fields for Netlify -->
+                        <input type="hidden" name="form-name" value="contact">
+                        <p style="display:none;">
+                            <label>Ne pas remplir si vous êtes humain : <input name="bot-field"></label>
+                        </p>
+
+                        <div class="form-group" style="margin-bottom:0;">
+                            <label for="name" class="form-label">Votre Nom *</label>
+                            <input type="text" id="name" name="name" class="form-input" required
+                                placeholder="Ex: Jean Dupont">
+                        </div>
+                        <div class="form-group" style="margin-bottom:0;">
+                            <label for="email" class="form-label">Courriel *</label>
+                            <input type="email" id="email" name="email" class="form-input" required
+                                placeholder="email@exemple.com">
+                        </div>
+                        <div class="form-group" style="margin-bottom:0;">
+                            <label for="phone" class="form-label">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="000-000-0000">
+                        </div>
+                        <div class="form-group" style="margin-bottom:0;">
+                            <label for="message" class="form-label">Votre projet</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="3"
+                                placeholder="Lieu, date, nombre de participants..."></textarea>
+                        </div>
+                        <button type="submit" id="contact-submit" class="btn-primary"
+                            style="border: none; cursor: pointer; padding: 0.9rem 1rem; font-size: 0.95rem; margin-top: 0.25rem;">ENVOYER</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="main-footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    Silence. On danse!
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/silenceondanse" target="_blank" aria-label="Facebook"><svg
+                            viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg></a>
+                </div>
+                <p class="copyright">&copy; 2026 Silence. On danse !</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

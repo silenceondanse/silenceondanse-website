@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche Technique | Silence. On danse ! - Équipement Silent Disco Pro</title>
+    <meta name="description"
+        content="Spécifications techniques de notre équipement : casques UHF, émetteurs portables and longue portée. Tout pour réussir votre événement silent disco.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.silenceondanse.ca/fiche-technique">
+    <meta property="og:title" content="Fiche Technique | Silence. On danse ! - Équipement Silent Disco Pro">
+    <meta property="og:description"
+        content="Consultez les détails techniques de nos casques et émetteurs haute fidélité.">
+    <meta property="og:image" content="https://www.silenceondanse.ca/assets/images/card-equipement.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* ========================
+           FICHE TECHNIQUE — READABILITY
+           ======================== */
+
+        /* Stats bar */
+        .stats-bar-val {
+            font-size: 2.6rem;
+            font-weight: 900;
+            color: var(--color-primary-light);
+            line-height: 1;
+            letter-spacing: -1px;
+        }
+
+        .stats-bar-unit {
+            font-size: 1.3rem;
+        }
+
+        .stats-bar-label {
+            font-size: 0.75rem;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.5);
+            margin-top: 8px;
+        }
+
+        /* Equipment cards hover */
+        .equip-card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+
+        .equip-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 48px rgba(0, 0, 0, 0.5);
+            border-color: rgba(255, 255, 255, 0.18);
+        }
+
+        /* Table — improved readability */
+        .spec-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .spec-table tr {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .spec-table tr:last-child {
+            border-bottom: none;
+        }
+
+        .spec-label {
+            padding: 13px 16px 13px 0;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: rgba(255, 255, 255, 0.55);
+            width: 40%;
+            vertical-align: top;
+            font-weight: 600;
+        }
+
+        .spec-value {
+            padding: 13px 0;
+            color: white;
+            font-size: 1rem;
+            font-weight: 600;
+            vertical-align: top;
+            line-height: 1.4;
+        }
+
+        .spec-note {
+            color: rgba(255, 255, 255, 0.55);
+            font-size: 0.85rem;
+            line-height: 1.65;
+            margin-top: 16px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            padding-top: 16px;
+        }
+
+        /* Card header */
+        .equip-card-header {
+            padding: 22px 26px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .equip-card-icon {
+            width: 44px;
+            height: 44px;
+            background: rgba(255, 255, 255, 0.18);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .equip-card-title {
+            color: white;
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: -0.3px;
+        }
+
+        .equip-card-body {
+            padding: 26px 26px 28px;
+        }
+    </style>
+
+
+<body>
+
+    <!-- Header -->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <nav class="nav-left">
+                <ul>
+                    <li><a href="services.html">NOS SERVICES</a></li>
+                    <li><a href="notrehistoire.html">NOTRE HISTOIRE</a></li>
+                    <li><a href="fiche-technique.html">FICHE TECHNIQUE</a></li>
+                </ul>
+            </nav>
+
+            <div class="logo">
+                <a href="index.html">
+                    Silence. On danse!
+                </a>
+            </div>
+
+            <nav class="nav-right">
+                <ul>
+                    <li><a href="photos.html">PHOTOTHÈQUE</a></li>
+                    <li><a href="contact.html" class="btn-outline-small">RÉSERVER NOS SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hero-fiche" id="hero-fiche">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+            <h1 style="font-size: var(--font-size-3xl);">Silence. On danse ! Partout avec vous.</h1>
+        </div>
+    </section>
+
+    <!-- Technical Details Section -->
+    <section class="technical-details" id="details"
+        style="background-color: var(--color-bg-dark); padding: 100px 0 80px;">
+        <div class="container">
+
+            <!-- Section Heading -->
+            <div class="reveal fade-up" style="text-align: center; margin-bottom: 65px;">
+                <span
+                    style="font-size: 0.78rem; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: var(--color-primary-light); display: block; margin-bottom: 16px;">ÉQUIPEMENT
+                    PROFESSIONNEL</span>
+                <h2
+                    style="color: white; font-size: clamp(2.2rem, 4vw, 3rem); margin-bottom: 18px; letter-spacing: -1px;">
+                    Informations Techniques</h2>
+                <div style="width: 60px; height: 3px; background: var(--color-primary-light); margin: 0 auto 24px;">
+                </div>
+                <p
+                    style="color: rgba(255,255,255,0.6); font-size: 1.1rem; max-width: 680px; margin: 0 auto; line-height: 1.7;">
+                    Tout ce que vous devez savoir sur notre équipement professionnel pour une expérience immersive
+                    réussie.
+                </p>
+            </div>
+
+            <!-- Quick Stats Bar -->
+            <div class="reveal fade-up"
+                style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: rgba(255,255,255,0.07); border-radius: var(--radius-md); overflow: hidden; margin-bottom: 70px; max-width: 700px; margin-left: auto; margin-right: auto;">
+                <div style="background: rgba(255,255,255,0.04); padding: 28px 20px; text-align: center;">
+                    <div
+                        style="font-size: 2.4rem; font-weight: 900; color: var(--color-primary-light); line-height: 1;">
+                        300<span style="font-size: 1.2rem;">m</span></div>
+                    <div
+                        style="font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-top: 8px;">
+                        Portée signal</div>
+                </div>
+                <div style="background: rgba(255,255,255,0.04); padding: 28px 20px; text-align: center;">
+                    <div
+                        style="font-size: 2.4rem; font-weight: 900; color: var(--color-primary-light); line-height: 1;">
+                        3</div>
+                    <div
+                        style="font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-top: 8px;">
+                        Canaux FM</div>
+                </div>
+                <div style="background: rgba(255,255,255,0.04); padding: 28px 20px; text-align: center;">
+                    <div
+                        style="font-size: 2.4rem; font-weight: 900; color: var(--color-primary-light); line-height: 1;">
+                        12<span style="font-size: 1.2rem;">h</span></div>
+                    <div
+                        style="font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-top: 8px;">
+                        Autonomie max</div>
+                </div>
+            </div>
+
+            <!-- Equipment Cards Grid -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 28px;">
+
+                <!-- Casques -->
+                <div class="equip-card reveal fade-up" style="transition-delay: 0.0s;">
+                    <div class="equip-card-header" style="background: var(--color-primary);">
+                        <div class="equip-card-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                                <path
+                                    d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="equip-card-title">Nos Casques</h3>
+                    </div>
+                    <div class="equip-card-body">
+                        <table class="spec-table">
+                            <tr>
+                                <td class="spec-label">Autonomie</td>
+                                <td class="spec-value">6 – 12 heures</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-label">Température</td>
+                                <td class="spec-value">-20 °C à +30 °C</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-label">Canaux</td>
+                                <td class="spec-value">3 fréquences FM</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-label">Voyants</td>
+                                <td class="spec-value">
+                                    <span style="display: inline-flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+                                        <span
+                                            style="width: 11px; height: 11px; border-radius: 50%; background: #ff3b30; box-shadow: 0 0 8px #ff3b30; flex-shrink:0;"></span>
+                                        <span
+                                            style="width: 11px; height: 11px; border-radius: 50%; background: #007aff; box-shadow: 0 0 8px #007aff; flex-shrink:0;"></span>
+                                        <span
+                                            style="width: 11px; height: 11px; border-radius: 50%; background: #34c759; box-shadow: 0 0 8px #34c759; flex-shrink:0;"></span>
+                                        <span style="color: rgba(255,255,255,0.7); font-size: 0.85rem;">rouge, bleu,
+                                            vert</span>
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                        <p class="spec-note">Possible de créer une ambiance visuelle en n'utilisant qu'un seul canal et
+                            en sélectionnant la couleur désirée.</p>
+                    </div>
+                </div>
+
+                <!-- Émetteurs Portables -->
+                <div class="equip-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="equip-card-header" style="background: var(--color-accent);">
+                        <div class="equip-card-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                            </svg>
+                        </div>
+                        <h3 class="equip-card-title">Émetteurs Portables</h3>
+                    </div>
+                    <div class="equip-card-body">
+                        <table class="spec-table">
+                            <tr>
+                                <td class="spec-label">Autonomie</td>
+                                <td class="spec-value">3 – 6 heures</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-label">Température</td>
+                                <td class="spec-value">-20 °C à +30 °C</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-label">Connexion câble</td>
+                                <td class="spec-value">Jack ⅛" (3,5mm TRS)</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-label">Sans fil</td>
+                                <td class="spec-value" style="color: #34c759;">✓ Bluetooth</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Émetteur Filaire -->
+                <div class="equip-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="equip-card-header" style="background: var(--color-primary-dark);">
+                        <div class="equip-card-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
+                                <line x1="12" y1="2" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <h3 class="equip-card-title">Émetteur Filaire</h3>
+                    </div>
+                    <div class="equip-card-body">
+                        <table class="spec-table">
+                            <tr>
+                                <td class="spec-label">Alimentation</td>
+                                <td class="spec-value">120 V (branché en permanence)</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-label">Connexion</td>
+                                <td class="spec-value">Câble RCA inclus</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-label">Compatible</td>
+                                <td class="spec-value">Console de son professionnelle</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Microphone & Portée -->
+                <div class="equip-card reveal fade-up" style="transition-delay: 0.3s;">
+                    <div class="equip-card-header"
+                        style="background: linear-gradient(135deg, #4E1C5D 0%, #1a3a6e 100%);">
+                        <div class="equip-card-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                                <line x1="12" y1="19" x2="12" y2="23"></line>
+                                <line x1="8" y1="23" x2="16" y2="23"></line>
+                            </svg>
+                        </div>
+                        <h3 class="equip-card-title">Microphone & Portée</h3>
+                    </div>
+                    <div class="equip-card-body">
+                        <table class="spec-table">
+                            <tr>
+                                <td class="spec-label">Portée max</td>
+                                <td class="spec-value">jusqu'à 300 m</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-label">Micro-casque</td>
+                                <td class="spec-value">En option</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-label">Fonction</td>
+                                <td class="spec-value"
+                                    style="color: rgba(255,255,255,0.8); font-size: 0.92rem; line-height: 1.5;">
+                                    Communication directe avec le public par-dessus la bande sonore</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CTA -->
+            <div class="reveal fade-up" style="text-align: center; margin-top: 70px;">
+                <a href="contact.html" id="fiche-cta" class="btn-primary"
+                    style="padding: 1.25rem 3rem; font-size: var(--font-size-base);">RÉSERVEZ VOTRE ÉVÉNEMENT</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="main-footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    Silence. On danse!
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/silenceondanse" target="_blank" aria-label="Facebook"><svg
+                            viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg></a>
+                </div>
+                <p class="copyright">&copy; 2026 Silence. On danse !</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
