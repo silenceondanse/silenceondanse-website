@@ -1,3 +1,4 @@
 # Netlify Deployment Configuration
 [build]
+  command = "sed -i \"s/{{BUILD_VERSION}}/$(git rev-parse --short HEAD)/g\" *.html"
   publish = "."
