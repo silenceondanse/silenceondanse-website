@@ -24,49 +24,16 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=6">
 
 </head>
 
 
 <body>
 
-    <!-- Header -->
-    <header class="main-header" id="header">
-        <div class="header-container">
-            <nav class="nav-left">
-                <ul>
-                    <li><a href="services.html">NOS SERVICES</a></li>
-                    <li><a href="notrehistoire.html">NOTRE HISTOIRE</a></li>
-                    <li><a href="fiche-technique.html">FICHE TECHNIQUE</a></li>
-                </ul>
-            </nav>
-
-            <div class="logo-group">
-                <div class="logo">
-                    <a href="index.html">
-                        Silence. On danse!
-                    </a>
-                </div>
-                <a href="contact.html" class="btn-outline-small d-none-mobile">RÉSERVER NOS SERVICES</a>
-            </div>
-
-            <nav class="nav-right">
-                <ul>
-                    <li><a href="photos.html">PHOTOTHÈQUE</a></li>
-                    <li class="d-block-mobile"><a href="contact.html" class="btn-outline-small">RÉSERVER NOS
-                            SERVICES</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
-
-            <div class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </header>
+    <!-- Header (loaded from components/header.html) -->
+    <div id="header-placeholder"></div>
+    <script src="js/load-header.js"></script>
 
     <!-- ======================== HERO ======================== -->
     <section class="hero-histoire-wrap" id="hero-histoire">
@@ -77,17 +44,6 @@
                 <span class="eyebrow">Notre histoire</span>
                 <h1>Des danses magiques créent des moments épiques !</h1>
             </div>
-        </div>
-    </section>
-
-    <!-- ======================== INTRO QUOTE ======================== -->
-    <section class="histoire-intro">
-        <div class="container reveal fade-up">
-            <blockquote>
-                La danse, c'est <strong>se connecter</strong>,<br>
-                <strong>célébrer</strong> la vie et <strong>contribuer</strong><br>
-                à notre communauté — sans déranger personne.
-            </blockquote>
         </div>
     </section>
 
@@ -224,13 +180,13 @@
                 <p class="copyright">&copy; 2026 Silence. On danse !<br>
                     <span class="reveal-on-click reveal-btn-footer" data-e="infosilenceondanse@gmail.com">[Afficher le
                         courriel]</span>
-                    <span class="version-tag">v.{{BUILD_VERSION}}</span>
+                    <span class="version-tag">v.1a9899d</span>
                 </p>
             </div>
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="js/main.js?v=2"></script>
 </body>
 
 </html>

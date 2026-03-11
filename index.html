@@ -25,47 +25,14 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=6">
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header class="main-header" id="header">
-        <div class="header-container">
-            <nav class="nav-left">
-                <ul>
-                    <li><a href="services.html">NOS SERVICES</a></li>
-                    <li><a href="notrehistoire.html">NOTRE HISTOIRE</a></li>
-                    <li><a href="fiche-technique.html">FICHE TECHNIQUE</a></li>
-                </ul>
-            </nav>
-
-            <div class="logo-group">
-                <div class="logo">
-                    <a href="index.html">
-                        Silence. On danse!
-                    </a>
-                </div>
-                <a href="contact.html" class="btn-outline-small d-none-mobile">RÉSERVER NOS SERVICES</a>
-            </div>
-
-            <nav class="nav-right">
-                <ul>
-                    <li><a href="photos.html">PHOTOTHÈQUE</a></li>
-                    <li class="d-block-mobile"><a href="contact.html" class="btn-outline-small">RÉSERVER NOS
-                            SERVICES</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
-
-            <div class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </header>
+    <!-- Header (loaded from components/header.html) -->
+    <div id="header-placeholder"></div>
+    <script src="js/load-header.js"></script>
 
     <!-- Hero Section -->
     <section class="hero" id="hero">
@@ -80,10 +47,12 @@
             <p class="subtitle">DANSE + EXPÉRIENCE IMMERSIVE</p>
             <div class="hero-channels">
                 <div class="channel-info">
-                    <span class="channel dot-red"></span>
-                    <span class="channel dot-blue"></span>
-                    <span class="channel dot-green"></span>
                     <p class="channel-label">3 CANAUX DE DIFFUSION</p>
+                    <div class="lights-wrapper channels-dots">
+                        <span class="channel dot-red"></span>
+                        <span class="channel dot-blue"></span>
+                        <span class="channel dot-green"></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -251,7 +220,7 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="js/main.js?v=2"></script>
 </body>
 
 </html>

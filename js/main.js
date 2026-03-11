@@ -5,37 +5,40 @@ document.addEventListener('DOMContentLoaded', () => {
     // 1. Sticky Header
     const header = document.getElementById('header');
 
-    const handleScroll = () => {
-        if (window.scrollY > 50) {
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled');
-        }
-    };
+    if (header) {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        };
 
-    window.addEventListener('scroll', handleScroll);
-    // Initial check in case page is loaded midway down
-    handleScroll();
+        window.addEventListener('scroll', handleScroll);
+        // Initial check in case page is loaded midway down
+        handleScroll();
+    }
 
-    // 2. Scroll Reveal Animations
+    // 2. Scroll Reveal Animations (IntersectionObserver)
     const reveals = document.querySelectorAll('.reveal');
 
-    const revealOnScroll = () => {
-        const windowHeight = window.innerHeight;
-        const elementVisible = 120; // trigger point
+    if (reveals.length) {
+        if ('IntersectionObserver' in window) {
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        revealObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.05, rootMargin: '0px 0px -60px 0px' });
 
-        reveals.forEach(reveal => {
-            const elementTop = reveal.getBoundingClientRect().top;
-
-            if (elementTop < windowHeight - elementVisible) {
-                reveal.classList.add('active');
-            }
-        });
-    };
-
-    window.addEventListener('scroll', revealOnScroll, { passive: true });
-    // Initial check
-    revealOnScroll();
+            reveals.forEach(reveal => revealObserver.observe(reveal));
+        } else {
+            // Fallback for old browsers without IntersectionObserver
+            reveals.forEach(reveal => reveal.classList.add('active'));
+        }
+    }
 
     // 3. Testimonial Slider
     const slides = document.querySelectorAll('.testimonial-slide');
@@ -254,4 +257,111 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // 11. Photo Gallery Modal
+    const galleryItemElements = document.querySelectorAll('.gallery-item img');
+    const galleryModal = document.getElementById('gallery-modal');
+    
+    if (galleryItemElements.length > 0 && galleryModal) {
+        const modalOverlay = document.getElementById('modal-overlay');
+        const modalClose = document.getElementById('modal-close');
+        const modalPrev = document.getElementById('modal-prev');
+        const modalNext = document.getElementById('modal-next');
+        const modalImage = document.getElementById('modal-image');
+        
+        let currentImageIndex = 0;
+        
+        const openModal = (index) => {
+            if (window.innerWidth <= 768) return; // Only allow modal on Desktop
+            
+            currentImageIndex = index;
+            modalImage.src = galleryItemElements[index].src;
+            modalImage.alt = galleryItemElements[index].alt;
+            
+            galleryModal.classList.add('show');
+            document.body.classList.add('no-scroll');
+        };
+        
+        const closeModal = () => {
+            galleryModal.classList.remove('show');
+            document.body.classList.remove('no-scroll');
+            setTimeout(() => { modalImage.src = ''; }, 300); // Clear image after transition
+        };
+        
+        const showNext = () => {
+            currentImageIndex = (currentImageIndex + 1) % galleryItemElements.length;
+            modalImage.src = galleryItemElements[currentImageIndex].src;
+            modalImage.alt = galleryItemElements[currentImageIndex].alt;
+        };
+        
+        const showPrev = () => {
+            currentImageIndex = (currentImageIndex - 1 + galleryItemElements.length) % galleryItemElements.length;
+            modalImage.src = galleryItemElements[currentImageIndex].src;
+            modalImage.alt = galleryItemElements[currentImageIndex].alt;
+        };
+        
+        // Add click listeners to gallery images
+        galleryItemElements.forEach((img, index) => {
+            img.parentElement.addEventListener('click', () => {
+                openModal(index);
+            });
+        });
+        
+        // Modal Controls
+        modalClose.addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', closeModal);
+        modalPrev.addEventListener('click', showPrev);
+        modalNext.addEventListener('click', showNext);
+        
+        // Keyboard Support
+        document.addEventListener('keydown', (e) => {
+            if (!galleryModal.classList.contains('show')) return;
+            
+            if (e.key === 'Escape') closeModal();
+            if (e.key === 'ArrowRight') showNext();
+            if (e.key === 'ArrowLeft') showPrev();
+        });
+    }
+
+    // 12. Video Modal Logic
+    const promoVideoWrapper = document.getElementById('promo-video-wrapper');
+    const videoModal = document.getElementById('video-modal');
+
+    if (promoVideoWrapper && videoModal) {
+        const videoModalOverlay = document.getElementById('video-modal-overlay');
+        const videoModalClose = document.getElementById('video-modal-close');
+        const modalVideo = document.getElementById('modal-video');
+        const promoVideo = document.getElementById('promo-video');
+
+        const openVideoModal = (e) => {
+            if (window.innerWidth <= 768) return; // Only allow modal on Desktop
+
+            e.preventDefault();
+
+            // The video source is now preloaded in HTML
+            // Just play it immediately
+            modalVideo.play();
+
+            videoModal.classList.add('show');
+            document.body.classList.add('no-scroll');
+        };
+
+        const closeVideoModal = () => {
+            videoModal.classList.remove('show');
+            document.body.classList.remove('no-scroll');
+            modalVideo.pause();
+            modalVideo.currentTime = 0;
+        };
+
+        promoVideoWrapper.addEventListener('click', openVideoModal);
+
+        videoModalClose.addEventListener('click', closeVideoModal);
+        videoModalOverlay.addEventListener('click', closeVideoModal);
+
+        document.addEventListener('keydown', (e) => {
+            if (!videoModal.classList.contains('show')) return;
+            if (e.key === 'Escape') closeVideoModal();
+        });
+    }
 });
+
