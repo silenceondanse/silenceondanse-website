@@ -2248,6 +2248,7 @@ section:empty {
     cursor: pointer;
     border-bottom: 1px dashed var(--color-primary);
     transition: opacity 0.3s ease;
+    white-space: nowrap;
 }
 
 .text-reveal-inline:hover {
