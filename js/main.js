@@ -201,10 +201,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if (subjectInput) {
                 const nameInput = contactForm.querySelector('input[name="name"]');
                 const rawName = nameInput ? nameInput.value : '';
-                // Netlify échappe l'objet en HTML : on remplace & par « et » et on retire < > " '
+                // Netlify échappe l'objet en HTML : on remplace & par « et » et on retire < > " (apostrophes conservées)
                 const cleanName = rawName
                     .replace(/\s*&\s*/g, ' et ')
-                    .replace(/[<>"']/g, '')
+                    .replace(/[<>"]/g, '')
                     .replace(/[\r\n\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 80) || 'Sans nom';
                 const now = new Date();
                 const pad = (n) => String(n).padStart(2, '0');
