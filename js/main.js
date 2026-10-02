@@ -201,7 +201,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (subjectInput) {
                 const nameInput = contactForm.querySelector('input[name="name"]');
                 const rawName = nameInput ? nameInput.value : '';
-                const cleanName = rawName.replace(/[\r\n\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 80) || 'Sans nom';
+                // Netlify échappe l'objet en HTML : on remplace & par « et » et on retire < > " '
+                const cleanName = rawName
+                    .replace(/\s*&\s*/g, ' et ')
+                    .replace(/[<>"']/g, '')
+                    .replace(/[\r\n\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 80) || 'Sans nom';
                 const now = new Date();
                 const pad = (n) => String(n).padStart(2, '0');
                 let stamp = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}`;
@@ -256,9 +260,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         errorMsg.innerHTML = `
                             <strong>Oups ! Le formulaire a bogué.</strong><br>
                             <p style="margin-top: 10px; font-size: 0.9rem;">Problème technique momentané. Voici votre message :</p>
-                            <div class="form-fallback-code">${userMessage}</div>
+                            <div class="form-fallback-code"></div>
                             <p class="form-fallback-footer">Envoyez-le directement à : <br><a href="mailto:infosilenceondanse@gmail.com" class="form-fallback-link">infosilenceondanse@gmail.com</a></p>
                         `;
+                        // Texte saisi par l'utilisateur : textContent (pas d'injection HTML)
+                        const fallbackCode = errorMsg.querySelector('.form-fallback-code');
+                        if (fallbackCode) fallbackCode.textContent = userMessage;
                         errorMsg.style.display = 'block';
                         errorMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
                     }
