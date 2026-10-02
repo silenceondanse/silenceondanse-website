@@ -196,6 +196,27 @@ document.addEventListener('DOMContentLoaded', () => {
             formSubmitBtn.innerText = 'ENVOI EN COURS...';
             formSubmitBtn.disabled = true;
 
+            // Objet unique : « 📝 {Nom} – {AAAA-MM-JJ HH:MM} » (heure de Toronto)
+            const subjectInput = contactForm.querySelector('input[name="subject"]');
+            if (subjectInput) {
+                const nameInput = contactForm.querySelector('input[name="name"]');
+                const rawName = nameInput ? nameInput.value : '';
+                const cleanName = rawName.replace(/[\r\n\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 80) || 'Sans nom';
+                const now = new Date();
+                const pad = (n) => String(n).padStart(2, '0');
+                let stamp = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}`;
+                try {
+                    const parts = {};
+                    new Intl.DateTimeFormat('en-CA', {
+                        timeZone: 'America/Toronto',
+                        year: 'numeric', month: '2-digit', day: '2-digit',
+                        hour: '2-digit', minute: '2-digit', hourCycle: 'h23'
+                    }).formatToParts(now).forEach(p => { parts[p.type] = p.value; });
+                    stamp = `${parts.year}-${parts.month}-${parts.day} ${parts.hour}:${parts.minute}`;
+                } catch (err) { /* navigateur sans fuseaux : heure locale */ }
+                subjectInput.value = `📝 ${cleanName} – ${stamp}`;
+            }
+
             const formData = new FormData(contactForm);
             // Required for Netlify AJAX
             const searchParams = new URLSearchParams(formData);

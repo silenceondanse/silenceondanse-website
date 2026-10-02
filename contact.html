@@ -65,6 +65,9 @@
 
                         <input type="hidden" name="form-name" value="contact">
 
+                        <!-- Objet du courriel Netlify : rempli en JS à l'envoi (unique par demande) -->
+                        <input type="hidden" name="subject" data-remove-prefix value="📝 Demande">
+
                         <!-- Netlify Bot-Field -->
                         <p class="d-none">
                             <label>Ne pas remplir si vous êtes humain : <input name="bot-field"></label>
@@ -128,7 +131,7 @@
         </div>
     </footer>
 
-    <script src="js/main.js?v=2"></script>
+    <script src="js/main.js?v=3"></script>
 </body>
 
 </html>
